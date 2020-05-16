@@ -70,5 +70,9 @@
     {
         "title": "Messi alla Juve per %SALABLEJUVEPLAYER%, %SALABLEJUVEPLAYER2% ed un calzino benedetto di CR7",
         "description": "Scambi improbabili"
+    },
+    {
+        "title": "%JUVEPLAYER%: rinnovo fino al %YEAR%",
+        "description": "Rinnovo contratto"
     }
 ]

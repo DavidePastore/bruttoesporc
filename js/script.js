@@ -13,6 +13,11 @@ function randomIntFromInterval(min, max) { // min and max included
     return Math.floor(Math.random() * (max - min + 1) + min);
 }
 
+function randomYearFromNow() {
+    let currentYear = new Date().getFullYear();
+    return randomIntFromInterval(currentYear + 5, currentYear + 10);
+}
+
 
 function regenerate() {
     var aims, juvePlayers, titles;
@@ -40,7 +45,8 @@ function regenerate() {
             '%SALABLEJUVEPLAYER%': randomSalableJuvePlayer[0].name,
             '%SALABLEJUVEPLAYER2%': randomSalableJuvePlayer[1].name,
             '%BIGNUMBER%': randomIntFromInterval(60, 120),
-            '%HUGENUMBER%': randomIntFromInterval(300, 500)
+            '%HUGENUMBER%': randomIntFromInterval(300, 500),
+            '%YEAR%': randomYearFromNow()
         };
         let definitiveTitle = randomTitle.replace(/%\w+%/g, function(all) {
             return replacements[all] || all;
