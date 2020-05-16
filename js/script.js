@@ -2,11 +2,11 @@ function getRandomElement(array) {
     return array[Math.floor(Math.random() * array.length)];
 }
 
-function getSalablePlayer(array) {
+function getSalablePlayers(array) {
     return array
         .filter(function(item) { return item.salable; })
         .sort(function() { return .5 - Math.random() }) // Shuffle array
-        .slice(0, 1);
+        .slice(0, 2);
 }
 
 function randomIntFromInterval(min, max) { // min and max included 
@@ -29,7 +29,7 @@ function regenerate() {
     ).then(function() {
         const randomTitle = getRandomElement(titles).title;
         const randomJuvePlayer = getRandomElement(juvePlayers);
-        const randomSalableJuvePlayer = getSalablePlayer(juvePlayers);
+        const randomSalableJuvePlayer = getSalablePlayers(juvePlayers);
         const randomAims = aims
             .sort(function() { return .5 - Math.random() }) // Shuffle array
             .slice(0, 2); // Get first 2 items
@@ -38,6 +38,7 @@ function regenerate() {
             '%AIM2%': randomAims[1].name,
             '%JUVEPLAYER%': randomJuvePlayer.name,
             '%SALABLEJUVEPLAYER%': randomSalableJuvePlayer[0].name,
+            '%SALABLEJUVEPLAYER2%': randomSalableJuvePlayer[1].name,
             '%BIGNUMBER%': randomIntFromInterval(60, 120),
             '%HUGENUMBER%': randomIntFromInterval(300, 500)
         };
