@@ -76,11 +76,11 @@
         "description": "Rinnovo contratto"
     },
 	{
-        "title": "%AIM%-Juve: è fatta!Lo porta %JUVEPLAYER%",
+        "title": "%AIM%-Juve: è fatta! Lo porta %JUVEPLAYER%",
         "description": "Prossimo acquisto sotto consiglio"
     },
 	{
-        "title": "Scansuolo indecente! chiede %HUGENUMBER% per scansarsi!",
+        "title": "Scansuolo indecente! Chiede %HUGENUMBER% milioni per scansarsi!",
         "description": "Improvvise richieste"
     },
 	{
@@ -112,11 +112,11 @@
         "description": "Acquisto sfumato"
     },
 	{
-        "title": "La Juve rifiuta %HUGENUMBER% per %JUVEPLAYER%!",
+        "title": "La Juve rifiuta %HUGENUMBER% milioni per %JUVEPLAYER%!",
         "description": "Cessione sfumata"
     },
 	{
-        "title": "%JUVEPLAYER%, che voglia di Juve!Si taglia lo 0.00000001% dello stipendio",
+        "title": "%JUVEPLAYER%, che voglia di Juve! Si taglia lo 0.00000001% dello stipendio",
         "description": "Cessione sfumata"
     }
 ]
