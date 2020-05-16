@@ -1,0 +1,122 @@
+[
+    {
+        "name": "De Bruyne",
+        "position": "Trequartista",
+        "team": "Manchester City"
+    },
+    {
+        "name": "Kanté",
+        "position": "Centrale",
+        "team": "Chelsea"
+    },
+    {
+        "name": "Pogba",
+        "position": "Centrale",
+        "team": "Manchester United"
+    },
+    {
+        "name": "de Jong",
+        "position": "Centrale",
+        "team": "Barcellona"
+    },
+    {
+        "name": "Werner",
+        "position": "Punta centrale",
+        "team": "Lipsia"
+    },
+    {
+        "name": "Icardi",
+        "position": "Punta centrale",
+        "team": "Inter"
+    },
+    {
+        "name": "Arthur",
+        "position": "Centrale",
+        "team": "Barcellona"
+    },
+    {
+        "name": "Jesus",
+        "position": "Punta centrale",
+        "team": "Manchester City"
+    },
+    {
+        "name": "Jorginho",
+        "position": "Mediano",
+        "team": "Chelsea"
+    },
+    {
+        "name": "Aouar",
+        "position": "Centrale",
+        "team": "Olympique Lione"
+    },
+    {
+        "name": "Chiesa",
+        "position": "Ala destra",
+        "team": "Fiorentina"
+    },
+    {
+        "name": "Zaniolo",
+        "position": "Trequartista",
+        "team": "Roma"
+    },
+    {
+        "name": "van de Beek",
+        "position": "Trequartista",
+        "team": "Ajax"
+    },
+    {
+        "name": "Luis Alberto",
+        "position": "Trequartista",
+        "team": "Lazio"
+    },
+    {
+        "name": "Thomas",
+        "position": "Mediano",
+        "team": "Atlético Madrid"
+    },
+    {
+        "name": "Camavinga",
+        "position": "Mediano",
+        "team": "Rennes"
+    },
+    {
+        "name": "Zapata",
+        "position": "Punta centrale",
+        "team": "Atalanta"
+    },
+    {
+        "name": "Milik",
+        "position": "Punta centrale",
+        "team": "Napoli"
+    },
+    {
+        "name": "Semedo",
+        "position": "Terzino destro",
+        "team": "Barcellona"
+    },
+    {
+        "name": "Umtiti",
+        "position": "Difensore centrale",
+        "team": "Barcellona"
+    },
+    {
+        "name": "Pellegrini",
+        "position": "Centrale",
+        "team": "Roma"
+    },
+    {
+        "name": "Theo Hernández",
+        "position": "Terzino sinistro",
+        "team": "Milan"
+    },
+    {
+        "name": "Tonali",
+        "position": "Mediano",
+        "team": "Brescia"
+    },
+    {
+        "name": "Trippier",
+        "position": "Terzino destro",
+        "team": "Atlético Madrid"
+    }
+]

@@ -1,0 +1,117 @@
+[
+    {
+        "name": "Szczęsny",
+        "position": "Portiere",
+        "salable": false
+    },
+    {
+        "name": "Buffon",
+        "position": "Portiere",
+        "salable": false
+    },
+    {
+        "name": "Pinsoglio",
+        "position": "Portiere",
+        "salable": true
+    },
+    {
+        "name": "de Ligt",
+        "position": "Difensore centrale",
+        "salable": false
+    },
+    {
+        "name": "Demiral",
+        "position": "Difensore centrale",
+        "salable": false
+    },
+    {
+        "name": "Bonucci",
+        "position": "Difensore centrale",
+        "salable": false
+    },
+    {
+        "name": "Rugani",
+        "position": "Difensore centrale",
+        "salable": true
+    },
+    {
+        "name": "Chiellini",
+        "position": "Difensore centrale",
+        "salable": false
+    },
+    {
+        "name": "Alex Sandro",
+        "position": "Terzino sinistro",
+        "salable": false
+    },
+    {
+        "name": "Danilo",
+        "position": "Terzino destro",
+        "salable": false
+    },
+    {
+        "name": "De Sciglio",
+        "position": "Terzino destro",
+        "salable": true
+    },
+    {
+        "name": "Pjanic",
+        "position": "Centrale",
+        "salable": false
+    },
+    {
+        "name": "Bentancur",
+        "position": "Centrale",
+        "salable": false
+    },
+    {
+        "name": "Ramsey",
+        "position": "Centrale",
+        "salable": false
+    },
+    {
+        "name": "Rabiot",
+        "position": "Centrale",
+        "salable": false
+    },
+    {
+        "name": "Matuidi",
+        "position": "Centrale",
+        "salable": false
+    },
+    {
+        "name": "Khedira",
+        "position": "Centrale",
+        "salable": false
+    },
+    {
+        "name": "Ronaldo",
+        "position": "Ala sinistra",
+        "salable": false
+    },
+    {
+        "name": "Bernardeschi",
+        "position": "Ala destra",
+        "salable": true
+    },
+    {
+        "name": "Douglas Costa",
+        "position": "Ala destra",
+        "salable": false
+    },
+    {
+        "name": "Cuadrado",
+        "position": "Ala destra",
+        "salable": false
+    },
+    {
+        "name": "Dybala",
+        "position": "Seconda punta",
+        "salable": false
+    },
+    {
+        "name": "Higuaín",
+        "position": "Punta centrale",
+        "salable": false
+    }
+]
