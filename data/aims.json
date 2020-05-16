@@ -118,5 +118,55 @@
         "name": "Trippier",
         "position": "Terzino destro",
         "team": "Atlético Madrid"
+    },
+    {
+        "name": "Mbappé",
+        "position": "Punta centrale",
+        "team": "PSG"
+    },
+    {
+        "name": "Sterling",
+        "position": "Ala sinistra",
+        "team": "Manchester City"
+    },
+    {
+        "name": "Neymar",
+        "position": "Ala sinistra",
+        "team": "PSG"
+    },
+    {
+        "name": "Mané",
+        "position": "Ala sinistra",
+        "team": "Liverpool"
+    },
+    {
+        "name": "Salah",
+        "position": "Ala destra",
+        "team": "Liverpool"
+    },
+    {
+        "name": "Kane",
+        "position": "Punta centrale",
+        "team": "Tottenham"
+    },
+    {
+        "name": "Sancho",
+        "position": "Ala destra",
+        "team": "Borussia Dortmund"
+    },
+    {
+        "name": "Messi",
+        "position": "Ala destra",
+        "team": "Barcellona"
+    },
+    {
+        "name": "Alexander-Arnold",
+        "position": "Terzino destro",
+        "team": "Liverpool"
+    },
+    {
+        "name": "Griezmann",
+        "position": "Seconda punta",
+        "team": "Barcellona"
     }
 ]
