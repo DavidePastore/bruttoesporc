@@ -105,7 +105,7 @@
     },
 	{
         "title": "%AIM% butta fuori la Juve dalla Champions: Paratici gli offre un quadriennale",
-        "description": "Prossimo acquisto"
+        "description": "Una nuova stella è nata"
     },
 	{
         "title": "%AIM% rifiuta la Juve! Ha una pattumiera al posto del cuore",
@@ -117,6 +117,10 @@
     },
 	{
         "title": "%JUVEPLAYER%, che voglia di Juve! Si taglia lo 0.00000001% dello stipendio",
-        "description": "Cessione sfumata"
+        "description": "Taglio stipendio poderoso"
+    },
+    {
+        "title": "Juve! %AIM% si prende così!",
+        "description": "Ecco come si fa"
     }
 ]
