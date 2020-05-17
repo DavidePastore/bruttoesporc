@@ -28,6 +28,12 @@ function createDefinitiveTitle(title, replacements) {
     });
 }
 
+function findImage(title, replacements) {
+    let imageToUse = '%' + title.imageToUse + '_IMAGE%';
+    console.log('replacements[imageToUse]', replacements[imageToUse])
+    return replacements[imageToUse];
+}
+
 function getColorFromCategory(categories, category) {
     return categories.filter(function(item) { return item.name === category; })[0].color;
 }
@@ -87,13 +93,18 @@ function regenerate() {
         $(".article-titles .article-to-edit").each(function(index, article) {
             replacements = {
                 '%AIM%': randomAims[randomAimsIndex].name,
+                '%AIM_IMAGE%': randomAims[randomAimsIndex].image,
                 '%AIM2%': randomAims[randomAimsIndex + 1].name,
+                '%AIM2_IMAGE%': randomAims[randomAimsIndex + 1].image,
                 '%JUVEPLAYER%': randomJuvePlayer[randomJuvePlayerIndex].name,
+                '%JUVEPLAYER_IMAGE%': randomJuvePlayer[randomJuvePlayerIndex].image,
                 '%BIGNUMBER%': randomIntFromInterval(44, 60),
                 '%HUGENUMBER%': randomIntFromInterval(300, 500),
                 '%YEAR%': randomYearFromNow(),
                 '%OPPONENTTEAM%': randomOpponentTeams[randomOpponentTeamsIndex].name,
-                '%ITALIANOPPONENTTEAM%': randomItalianOpponentTeams[randomItalianOpponentTeamsIndex].name
+                '%OPPONENTTEAM_IMAGE%': randomOpponentTeams[randomOpponentTeamsIndex].image,
+                '%ITALIANOPPONENTTEAM%': randomItalianOpponentTeams[randomItalianOpponentTeamsIndex].name,
+                '%ITALIANOPPONENTTEAM_IMAGE%': randomItalianOpponentTeams[randomItalianOpponentTeamsIndex].image
             };
             let $article = $(article);
             let randomOtherTitle = randomOtherTitles[randomOtherTitlesIndex];
@@ -103,6 +114,15 @@ function regenerate() {
             $article.find(".article-category")
                 .html(category)
                 .css('color', getColorFromCategory(categories, category));
+
+            let imageToUse = findImage(randomOtherTitle, replacements);
+            if (imageToUse) {
+                $article.find(".article-image")
+                    .html('<img class="bd-placeholder-img article-image" width="200" height="250" src="' + imageToUse +'">');
+            } else {
+                $article.find(".article-image")
+                    .html('<svg class="bd-placeholder-img" width="200" height="250" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>');
+            }
             
             randomAimsIndex += 2;
             randomJuvePlayerIndex++;

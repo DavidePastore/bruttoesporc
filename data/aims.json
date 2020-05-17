@@ -2,171 +2,205 @@
     {
         "name": "De Bruyne",
         "position": "Trequartista",
-        "team": "Manchester City"
+        "team": "Manchester City",
+        "image": "https://www.napolimagazine.com/images/0/0/locandine/0/NINTCHDBPICT000564341774-e1583682420376.jpg"
     },
     {
         "name": "Kanté",
         "position": "Centrale",
-        "team": "Chelsea"
+        "team": "Chelsea",
+        "image": "https://www.sportpaper.it/wp-content/uploads/2017/06/Kante.jpg"
     },
     {
         "name": "Pogba",
         "position": "Centrale",
-        "team": "Manchester United"
+        "team": "Manchester United",
+        "image": "https://wips.plug.it/cips/sport.virgilio.it/cms/2020/03/pogba_1142894.jpg?w=820&a=r"
     },
     {
         "name": "de Jong",
         "position": "Centrale",
-        "team": "Barcellona"
+        "team": "Barcellona",
+        "image": "https://www.ilposticipo.it/wp-content/uploads/sites/63/de-jong-2.jpg"
     },
     {
         "name": "Werner",
         "position": "Punta centrale",
-        "team": "Lipsia"
+        "team": "Lipsia",
+        "image": "https://net-storage.tccstatic.com/storage/fcinternews.it/img_notizie/thumb3/63/63a91bf976e2de84c57c579e26d2dc84-58177-d41d8cd98f00b204e9800998ecf8427e.jpg"
     },
     {
         "name": "Icardi",
         "position": "Punta centrale",
-        "team": "Inter"
+        "team": "Inter",
+        "image": "https://tmw-storage.tccstatic.com/storage/tuttomercatoweb.com/img_notizie/thumb3/ba53fd980f6269f7019bb23357c9e9a3-66408-95723157c8ebcac4750156d2b21ac04e.jpeg"
     },
     {
         "name": "Arthur",
         "position": "Centrale",
-        "team": "Barcellona"
+        "team": "Barcellona",
+        "image": "https://www.juventusnews24.com/wp-content/uploads/2020/04/Arthur-696x391.jpg"
     },
     {
         "name": "Gabriel Jesus",
         "position": "Punta centrale",
-        "team": "Manchester City"
+        "team": "Manchester City",
+        "image": "https://www.calciostyle.it/wp-content/uploads/2020/01/gabriel-jesus-1200x900.jpg"
     },
     {
         "name": "Jorginho",
         "position": "Mediano",
-        "team": "Chelsea"
+        "team": "Chelsea",
+        "image": "https://cdn.ilbianconero.com/images/2020-01/Jorginho.Chelsea.2019.20.esultanza.1080x648.jpg"
     },
     {
         "name": "Aouar",
         "position": "Centrale",
-        "team": "Olympique Lione"
+        "team": "Olympique Lione",
+        "image": "https://cdn.calciomercato.com/images/2019-09/aouar.lione.2019.2020.festeggia.460x340.jpg"
     },
     {
         "name": "Chiesa",
         "position": "Ala destra",
-        "team": "Fiorentina"
+        "team": "Fiorentina",
+        "image": "https://wips.plug.it/cips/sport.virgilio.it/cms/2020/01/federico-chiesa_1135277.jpg?w=507&a=r"
     },
     {
         "name": "Zaniolo",
         "position": "Trequartista",
-        "team": "Roma"
+        "team": "Roma",
+        "image": "https://forbes.it/wp-content/uploads/2019/07/GettyImages-1075107824.jpg"
     },
     {
         "name": "van de Beek",
         "position": "Trequartista",
-        "team": "Ajax"
+        "team": "Ajax",
+        "image": "https://images.daznservices.com/di/library/GOAL/f3/22/donny-van-de-beek-ajax-2018-19_7c81x9n4g3g19mx2rplnjayh.jpg?t=1870551618&quality=100"
     },
     {
         "name": "Luis Alberto",
         "position": "Trequartista",
-        "team": "Lazio"
+        "team": "Lazio",
+        "image": "https://i2.wp.com/www.rivistaundici.com/wp-content/uploads/2019/12/GettyImages-1187093960-1.jpg?resize=1024%2C683&ssl=1"
     },
     {
         "name": "Thomas",
         "position": "Mediano",
-        "team": "Atlético Madrid"
+        "team": "Atlético Madrid",
+        "image": "https://www.ilposticipo.it/wp-content/uploads/sites/63/thomas-partey.jpg"
     },
     {
         "name": "Camavinga",
         "position": "Mediano",
-        "team": "Rennes"
+        "team": "Rennes",
+        "image": "https://www.spaziomilan.it/wp-content/uploads/2019/11/Camavinga.jpg"
     },
     {
         "name": "Zapata",
         "position": "Punta centrale",
-        "team": "Atalanta"
+        "team": "Atalanta",
+        "image": "https://www.fantamagazine.com/wp-content/uploads/sites/49/2019/12/gettyimages-1172842703.jpg"
     },
     {
         "name": "Milik",
         "position": "Punta centrale",
-        "team": "Napoli"
+        "team": "Napoli",
+        "image": "https://www.calciomercato.it/wp-content/uploads/2020/03/208508.jpg"
     },
     {
         "name": "Semedo",
         "position": "Terzino destro",
-        "team": "Barcellona"
+        "team": "Barcellona",
+        "image": "https://s.hs-data.com/bilder/spieler/gross/231910.jpg"
     },
     {
         "name": "Umtiti",
         "position": "Difensore centrale",
-        "team": "Barcellona"
+        "team": "Barcellona",
+        "image": "https://s.hs-data.com/bilder/spieler/gross/170711.jpg"
     },
     {
         "name": "Pellegrini",
         "position": "Centrale",
-        "team": "Roma"
+        "team": "Roma",
+        "image": "https://www.fantamagazine.com/wp-content/uploads/sites/49/2018/10/135740869-32fa89a5-7a69-4bc3-9d98-7566c02903c0.jpg"
     },
     {
         "name": "Theo Hernández",
         "position": "Terzino sinistro",
-        "team": "Milan"
+        "team": "Milan",
+        "image": "https://www.ilmilanista.it/wp-content/uploads/sites/24/2019/12/gettyimages-1185807109-e1575219949117.jpg"
     },
     {
         "name": "Tonali",
         "position": "Mediano",
-        "team": "Brescia"
+        "team": "Brescia",
+        "image": "https://www.pianetamilan.it/wp-content/uploads/sites/23/2020/01/gettyimages-1191463274.jpg"
     },
     {
         "name": "Trippier",
         "position": "Terzino destro",
-        "team": "Atlético Madrid"
+        "team": "Atlético Madrid",
+        "image": "https://www.spaziocalcio.it/contents/uploads/2020/05/Kieran-Trippier-Atletico-Madrid.jpg"
     },
     {
         "name": "Mbappé",
         "position": "Punta centrale",
-        "team": "PSG"
+        "team": "PSG",
+        "image": "https://staticfanpage.akamaized.net/wp-content/uploads/sites/9/2020/03/mbappe%CC%80-638x425.jpeg"
     },
     {
         "name": "Sterling",
         "position": "Ala sinistra",
-        "team": "Manchester City"
+        "team": "Manchester City",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Raheem_Sterling_2018.jpg"
     },
     {
         "name": "Neymar",
         "position": "Ala sinistra",
-        "team": "PSG"
+        "team": "PSG",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/b/bc/Bra-Cos_%281%29.jpg"
     },
     {
         "name": "Mané",
         "position": "Ala sinistra",
-        "team": "Liverpool"
+        "team": "Liverpool",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/4/4a/Sadio_Man%C3%A9_Senegal.jpg"
     },
     {
         "name": "Salah",
         "position": "Ala destra",
-        "team": "Liverpool"
+        "team": "Liverpool",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/4/4a/Mohamed_Salah_2018.jpg"
     },
     {
         "name": "Kane",
         "position": "Punta centrale",
-        "team": "Tottenham"
+        "team": "Tottenham",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/2/2e/Harry_Kane_in_Russia_2.jpg"
     },
     {
         "name": "Sancho",
         "position": "Ala destra",
-        "team": "Borussia Dortmund"
+        "team": "Borussia Dortmund",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/1/16/FC_Salzburg_gegen_Manchester_City_FC_%28U19_8._Februar_2017%29_09_%28cropped%29.jpg"
     },
     {
         "name": "Messi",
         "position": "Ala destra",
-        "team": "Barcellona"
+        "team": "Barcellona",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/b/b8/Messi_vs_Nigeria_2018.jpg"
     },
     {
         "name": "Alexander-Arnold",
         "position": "Terzino destro",
-        "team": "Liverpool"
+        "team": "Liverpool",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/8/8a/Trent_Alexander-Arnold_2018.jpg"
     },
     {
         "name": "Griezmann",
         "position": "Seconda punta",
-        "team": "Barcellona"
+        "team": "Barcellona",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/f/fa/FRA-ARG_%2810%29.jpg"
     }
 ]

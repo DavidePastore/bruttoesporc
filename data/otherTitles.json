@@ -1,34 +1,42 @@
 [
     {
         "title": "%OPPONENTTEAM%: guai per il bilancio",
-        "category": "Finanza"
+        "category": "Finanza",
+        "imageToUse": "OPPONENTTEAM"
     },
     {
         "title": "%OPPONENTTEAM%, che disastro!",
-        "category": "Calcio"
+        "category": "Calcio",
+        "imageToUse": "OPPONENTTEAM"
     },
     {
         "title": "Servono %BIGNUMBER% punti nel ritorno. %OPPONENTTEAM%, che stress!",
-        "category": "Calcio"
+        "category": "Calcio",
+        "imageToUse": "OPPONENTTEAM"
     },
     {
         "title": "La fidanzata di %JUVEPLAYER% incanta su Instagram!",
-        "category": "Gossip"
+        "category": "Gossip",
+        "imageToUse": "JUVEPLAYER"
     },
     {
         "title": "%ITALIANOPPONENTTEAM% KO, che peccato!",
-        "category": "Calcio"
+        "category": "Calcio",
+        "imageToUse": "ITALIANOPPONENTTEAM"
     },
     {
         "title": "Speciale allenamento di %JUVEPLAYER%",
-        "category": "Calcio"
+        "category": "Calcio",
+        "imageToUse": "JUVEPLAYER"
     },
     {
         "title": "%OPPONENTTEAM%, così non va!",
-        "category": "Calcio"
+        "category": "Calcio",
+        "imageToUse": "OPPONENTTEAM"
     },
     {
         "title": "Sanremo magico con la fidanzata di %JUVEPLAYER%",
-        "category": "Gossip"
+        "category": "Gossip",
+        "imageToUse": "JUVEPLAYER"
     }
 ]
