@@ -30,7 +30,6 @@ function createDefinitiveTitle(title, replacements) {
 
 function findImage(title, replacements) {
     let imageToUse = '%' + title.imageToUse + '_IMAGE%';
-    console.log('replacements[imageToUse]', replacements[imageToUse])
     return replacements[imageToUse];
 }
 
