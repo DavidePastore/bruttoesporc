@@ -1,0 +1,74 @@
+[
+    {
+        "name": "Inter",
+        "isItalian": true
+    },
+    {
+        "name": "Milan",
+        "isItalian": true
+    },
+    {
+        "name": "Napoli",
+        "isItalian": true
+    },
+    {
+        "name": "Atalanta",
+        "isItalian": true
+    },
+    {
+        "name": "Torino",
+        "isItalian": true
+    },
+    {
+        "name": "Lazio",
+        "isItalian": true
+    },
+    {
+        "name": "Roma",
+        "isItalian": true
+    },
+    {
+        "name": "Barcellona",
+        "isItalian": false
+    },
+    {
+        "name": "Manchester City",
+        "isItalian": false
+    },
+    {
+        "name": "Manchester United",
+        "isItalian": false
+    },
+    {
+        "name": "Liverpool",
+        "isItalian": false
+    },
+    {
+        "name": "Real Madrid",
+        "isItalian": false
+    },
+    {
+        "name": "Bayern Monaco",
+        "isItalian": false
+    },
+    {
+        "name": "Benfica",
+        "isItalian": false
+    },
+    {
+        "name": "Porto",
+        "isItalian": false
+    },
+    {
+        "name": "Ajax",
+        "isItalian": false
+    },
+    {
+        "name": "Arsenal",
+        "isItalian": false
+    },
+    {
+        "name": "Dinamo Kiev",
+        "isItalian": false
+    }
+]

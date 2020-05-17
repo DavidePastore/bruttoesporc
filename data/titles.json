@@ -120,7 +120,15 @@
         "description": "Taglio stipendio poderoso"
     },
     {
-        "title": "Juve! %AIM% si prende così!",
+        "title": "Juve, %AIM% si prende così!",
         "description": "Ecco come si fa"
+    },
+    {
+        "title": "Juve, ciao %OPPONENTTEAM%!",
+        "description": "Ciao ciao"
+    },
+    {
+        "title": "Che Juve! Che %JUVEPLAYER%!",
+        "description": "La squadra è fortissima"
     }
 ]

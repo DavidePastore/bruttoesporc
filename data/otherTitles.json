@@ -1,0 +1,34 @@
+[
+    {
+        "title": "%OPPONENTTEAM%: guai per il bilancio",
+        "category": "Finanza"
+    },
+    {
+        "title": "%OPPONENTTEAM%, che disastro!",
+        "category": "Calcio"
+    },
+    {
+        "title": "Servono %BIGNUMBER% punti nel ritorno. %OPPONENTTEAM%, che stress!",
+        "category": "Calcio"
+    },
+    {
+        "title": "La fidanzata di %JUVEPLAYER% incanta su Instagram!",
+        "category": "Gossip"
+    },
+    {
+        "title": "%ITALIANOPPONENTTEAM% KO, che peccato!",
+        "category": "Calcio"
+    },
+    {
+        "title": "Speciale allenamento di %JUVEPLAYER%",
+        "category": "Calcio"
+    },
+    {
+        "title": "%OPPONENTTEAM%, così non va!",
+        "category": "Calcio"
+    },
+    {
+        "title": "Sanremo magico con la fidanzata di %JUVEPLAYER%",
+        "category": "Gossip"
+    }
+]
