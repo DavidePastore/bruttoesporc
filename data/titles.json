@@ -190,12 +190,12 @@
         "imageToUse": "AIM"
     },
 	{
-        "title": "%JUVEPLAYER confessa: non sopporto Sarri, puzza troppo di fumo!",
+        "title": "%JUVEPLAYER% confessa: non sopporto Sarri, puzza troppo di fumo!",
         "description": "Improvvise confessioni",
         "imageToUse": "JUVEPLAYER"
     },
 	{
-        "title": " %AIM% in saldo! In arrivo per soli %HUGENUMBER% milioni!",
+        "title": "%AIM% in saldo! In arrivo per soli %HUGENUMBER% milioni!",
         "description": "Acquisti in arrivo",
         "imageToUse": "AIM"
     },
@@ -220,7 +220,7 @@
         "imageToUse": ""
     },
 	{
-        "title": " Firma anche tu la petizione: il Pallone d'oro a %JUVEPLAYER%",
+        "title": "Firma anche tu la petizione: il Pallone d'oro a %JUVEPLAYER%",
         "description": "Richieste molto sensate",
         "imageToUse": "JUVEPLAYER"
     },
