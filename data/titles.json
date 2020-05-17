@@ -91,55 +91,8 @@
     },
     {
         "title": "%JUVEPLAYER%: rinnovo fino al %YEAR%",
-<<<<<<< HEAD
-        "description": "Rinnovo contratto"
-    },
-	{
-        "title": "%AIM%-Juve: è fatta!Lo porta %JUVEPLAYER%",
-        "description": "Prossimo acquisto sotto consiglio"
-    },
-	{
-        "title": "Scansuolo indecente! chiede %HUGENUMBER% per scansarsi!",
-        "description": "Improvvise richieste"
-    },
-	{
-        "title": "%AIM%, la Juve nel DNA: da piccolo rubava ai supermercati",
-        "description": "Giocatori predestinati"
-    },
-	{
-        "title": "Doppietta per %JUVEPLAYER% contro lo Scansuolo: il Pallone d'oro è ormai una formalità",
-        "description": "In corsa per il pallone d'oro"
-    },
-	{
-        "title": "Covid-19: e se la cura fosse nel sangue di %JUVEPLAYER%?",
-        "description": "Scoperte rivoluzionarie"
-    },
-	{
-        "title": "%JUVEPLAYER% rifiuta i complimenti di Allegri: sarà ceduto",
-        "description": "Improvvisi dissapori"
-    },
-	{
-        "title": "Juve, cosa aspetti? %AIM% ti chiama",
-        "description": "Prossimo acquisto"
-    },
-	{
-        "title": "%AIM% butta fuori la Juve dalla Champions: Paratici gli offre un quadriennale",
-        "description": "Prossimo acquisto"
-    },
-	{
-        "title": "%AIM% rifiuta la Juve! Ha una pattumiera al posto del cuore",
-        "description": "Acquisto sfumato"
-    },
-	{
-        "title": "La Juve rifiuta %HUGENUMBER% per %JUVEPLAYER%!",
-        "description": "Cessione sfumata"
-    },
-	{
-        "title": "%JUVEPLAYER%, che voglia di Juve!Si taglia lo 0.00000001% dello stipendio",
-        "description": "Cessione sfumata"
-=======
         "description": "Rinnovo contratto",
-        "imageToUse": "JUVEPLAYER"
+		"imageToUse": "JUVEPLAYER"
     },
 	{
         "title": "%AIM%-Juve: è fatta! Lo porta %JUVEPLAYER%",
