@@ -1,14 +1,33 @@
 #logo {
-    color: #9d3a10;
-    font-weight: 800;
-    font-size: 2rem;
+  color: #9d3a10;
+  font-weight: 800;
 }
 
 #title {
+  line-height: 1.1;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 1.5rem;
+}
+
+@media (min-width: 576px) {
+  #logo {
+      font-size: 1.8rem;
+  }
+
+  #title {
+    font-size: 1.3rem;
+  }
+}
+
+@media (min-width: 768px) {
+  #logo {
+    font-size: 2.5rem;
+  }
+
+  #title {
     font-size: 1.625rem;
-    line-height: 1.1;
-    font-weight: 700;
-    text-transform: uppercase;
+  }
 }
 
 /* stylelint-disable selector-list-comma-newline-after */
