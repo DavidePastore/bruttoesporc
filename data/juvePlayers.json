@@ -2,116 +2,139 @@
     {
         "name": "Szczęsny",
         "position": "Portiere",
-        "salable": false
+        "salable": false,
+        "image": "https://upload.wikimedia.org/wikipedia/commons/b/bd/Wojciech_Szcz%C4%99sny_%28edited%29.jpg"
     },
     {
         "name": "Buffon",
         "position": "Portiere",
-        "salable": false
+        "salable": false,
+        "image": "https://upload.wikimedia.org/wikipedia/commons/5/5f/Gianluigi_Buffon_%282014%29.jpg"
     },
     {
         "name": "Pinsoglio",
         "position": "Portiere",
-        "salable": true
+        "salable": true,
+        "image": "https://upload.wikimedia.org/wikipedia/commons/b/b2/1carlopinsoglio2015.jpg"
     },
     {
         "name": "de Ligt",
         "position": "Difensore centrale",
-        "salable": false
+        "salable": false,
+        "image": "https://upload.wikimedia.org/wikipedia/commons/3/35/Matthijs_de_Ligt_2018.jpg"
     },
     {
         "name": "Demiral",
         "position": "Difensore centrale",
-        "salable": false
+        "salable": false,
+        "image": "https://tmssl.akamaized.net/images/portrait/originals/340879-1547804821.jpg"
     },
     {
         "name": "Bonucci",
         "position": "Difensore centrale",
-        "salable": false
+        "salable": false,
+        "image": "https://upload.wikimedia.org/wikipedia/commons/6/62/20150616_-_Portugal_-_Italie_-_Gen%C3%A8ve_-_Leonardo_Bonucci.jpg"
     },
     {
         "name": "Rugani",
         "position": "Difensore centrale",
-        "salable": true
+        "salable": true,
+        "image": "https://images.daznservices.com/di/library/GOAL/57/d6/daniele-rugani-juventus-2018_1rlfranrrn59u1nqn9zouguni5.jpg?t=-961499329&quality=60&w=1200&h=800"
     },
     {
         "name": "Chiellini",
         "position": "Difensore centrale",
-        "salable": false
+        "salable": false,
+        "image": "https://www2.pictures.zimbio.com/gi/FC+Internazionale+Milano+v+Juventus+Serie+prVmt7O2StJx.jpg"
     },
     {
         "name": "Alex Sandro",
         "position": "Terzino sinistro",
-        "salable": false
+        "salable": false,
+        "image": "https://s.hs-data.com/bilder/spieler/gross/127666.jpg"
     },
     {
         "name": "Danilo",
         "position": "Terzino destro",
-        "salable": false
+        "salable": false,
+        "image": "https://tmssl.akamaized.net/images/portrait/originals/145707-1462894787.jpg"
     },
     {
         "name": "De Sciglio",
         "position": "Terzino destro",
-        "salable": true
+        "salable": true,
+        "image": "https://upload.wikimedia.org/wikipedia/commons/2/2c/20150616_-_Portugal_-_Italie_-_Gen%C3%A8ve_-_Mattia_De_Sciglio_1.jpg"
     },
     {
         "name": "Pjanic",
         "position": "Centrale",
-        "salable": false
+        "salable": false,
+        "image": "https://upload.wikimedia.org/wikipedia/commons/d/d4/20150331_2025_AUT_BIH_2130_Miralem_Pjani%C4%87.jpg"
     },
     {
         "name": "Bentancur",
         "position": "Centrale",
-        "salable": false
+        "salable": false,
+        "image": "https://upload.wikimedia.org/wikipedia/commons/6/63/Bentancur-juventus-2019_%28cropped%29.jpg"
     },
     {
         "name": "Ramsey",
         "position": "Centrale",
-        "salable": false
+        "salable": false,
+        "image": "https://upload.wikimedia.org/wikipedia/commons/a/ab/Aaron_Ramsey_2019.jpg"
     },
     {
         "name": "Rabiot",
         "position": "Centrale",
-        "salable": false
+        "salable": false,
+        "image": "https://www.derbyderbyderby.it/wp-content/uploads/sites/64/2019/07/Rabiot-1-1.jpg"
     },
     {
         "name": "Matuidi",
         "position": "Centrale",
-        "salable": false
+        "salable": false,
+        "image": "https://i1.wp.com/www.linkiesta.it/wp-content/uploads/2020/03/2652bcce-cbc6-4ddd-8fbf-24eb63635c44_large.jpg?fit=1200%2C800&ssl=1"
     },
     {
         "name": "Khedira",
         "position": "Centrale",
-        "salable": false
+        "salable": false,
+        "image": "https://images2.corriereobjects.it/methode_image/2019/02/20/Sport/Foto%20Sport%20-%20Trattate/1130479775-kVZD-U31001061087922MHI-1224x916@Corriere-Web-Sezioni-593x443.jpg?v=20190220131949"
     },
     {
         "name": "Ronaldo",
         "position": "Ala sinistra",
-        "salable": false
+        "salable": false,
+        "image": "https://s.hs-data.com/bilder/spieler/gross/13029.jpg"
     },
     {
         "name": "Bernardeschi",
         "position": "Ala destra",
-        "salable": true
+        "salable": true,
+        "image": "https://s.hs-data.com/bilder/spieler/gross/227957.jpg"
     },
     {
         "name": "Douglas Costa",
         "position": "Ala destra",
-        "salable": false
+        "salable": false,
+        "image": "https://tmssl.akamaized.net/images/portrait/originals/75615-1537176773.jpg"
     },
     {
         "name": "Cuadrado",
         "position": "Ala destra",
-        "salable": false
+        "salable": false,
+        "image": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Juan_Cuadrado_2019.jpg"
     },
     {
         "name": "Dybala",
         "position": "Seconda punta",
-        "salable": false
+        "salable": false,
+        "image": "https://s.hs-data.com/bilder/spieler/gross/205118.jpg"
     },
     {
         "name": "Higuaín",
         "position": "Punta centrale",
-        "salable": false
+        "salable": false,
+        "image": "https://www.corriere.it/methode_image/2020/03/19/Sport/Foto%20Sport%20-%20Trattate/316.0.31000055-0026-kL5H-U31701612238712Y5F-656x492@Corriere-Web-Sezioni.jpg"
     }
 ]
