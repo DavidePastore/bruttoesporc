@@ -92,7 +92,7 @@
     {
         "title": "%JUVEPLAYER%: rinnovo fino al %YEAR%",
         "description": "Rinnovo contratto",
-        "imageToUse": "JUVEPLAYER"
+		"imageToUse": "JUVEPLAYER"
     },
 	{
         "title": "%AIM%-Juve: è fatta! Lo porta %JUVEPLAYER%",
@@ -162,6 +162,81 @@
     {
         "title": "Che Juve! Che %JUVEPLAYER%!",
         "description": "La squadra è fortissima",
+        "imageToUse": "JUVEPLAYER"
+    },
+	{
+        "title": "CR7 convince %AIM%: desidero la Juve come desidero Belen!",
+        "description": "Acquisti in arrivo",
+        "imageToUse": "AIM"
+    },
+	{
+        "title": "%JUVEPLAYER%, cuore d'oro! Dona ben 5 Euro ad un mendicante",
+        "description": "Una lacrima strappa storia",
+        "imageToUse": "JUVEPLAYER"
+    },
+    {
+        "title": "Incredibile %JUVEPLAYER%! Si allena in garage durante il lockdown",
+        "description": "Allenamenti alternativi",
+        "imageToUse": "JUVEPLAYER"
+    },
+    {
+        "title": "%OPPONENTTEAM%, è finita la pacchia!! Ora sconfiggi %JUVEPLAYER%",
+        "description": "La sfida si fa dura",
+        "imageToUse": "JUVEPLAYER"
+    },
+    {
+        "title": "Indegno %AIM%! Lo stadium lo applaude ma lui preferisce andare al %OPPONENTTEAM%!",
+        "description": "Insensibilità",
+        "imageToUse": "AIM"
+    },
+	{
+        "title": "%JUVEPLAYER confessa: non sopporto Sarri, puzza troppo di fumo!",
+        "description": "Improvvise confessioni",
+        "imageToUse": "JUVEPLAYER"
+    },
+	{
+        "title": " %AIM% in saldo! In arrivo per soli %HUGENUMBER% milioni!",
+        "description": "Acquisti in arrivo",
+        "imageToUse": "AIM"
+    },
+    {
+        "title": "Juve in crisi! %JUVEPLAYER% a CR7: prova a fare dei miracoli!",
+        "description": "Rimedi a difficoltà",
+        "imageToUse": "JUVEPLAYER"
+    },
+    {
+        "title": "%AIM% dichiara: il mio idolo è sempre stato %JUVEPLAYER%",
+        "description": "Improvvise confessioni",
+        "imageToUse": "AIM"
+    },
+    {
+        "title": "%AIM% vicino, ma che ambizioni: voglio emulare il mio idolo Padoin!",
+        "description": "Acquisti in arrivo",
+        "imageToUse": "AIM"
+    },
+	{
+        "title": "Paratici lascia %AIM% al %OPPONENTTEAM%: troppi 2500 Euro",
+        "description": "Cambi di strategia",
+        "imageToUse": ""
+    },
+	{
+        "title": " Firma anche tu la petizione: il Pallone d'oro a %JUVEPLAYER%",
+        "description": "Richieste molto sensate",
+        "imageToUse": "JUVEPLAYER"
+    },
+    {
+        "title": "%JUVEPLAYER% dichiara: CR7 generosissimo, mi lascia 1 punizione ogni 1000",
+        "description": "CR7 cuore d'oro",
+        "imageToUse": "JUVEPLAYER"
+    },
+    {
+        "title": "%JUVEPLAYER%, che stranezze: da quando è alla Juve, il suo naso si è allungato",
+        "description": "Cambiamenti improvvisi",
+        "imageToUse": "JUVEPLAYER"
+    },
+    {
+        "title": "%JUVEPLAYER% confessa: in questo lockdown mi mancano gli abbracci con Orsato",
+        "description": "Improvvise confessioni",
         "imageToUse": "JUVEPLAYER"
     }
 ]
