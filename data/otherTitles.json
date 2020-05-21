@@ -38,5 +38,10 @@
         "title": "Sanremo magico con la fidanzata di %JUVEPLAYER%",
         "category": "Gossip",
         "imageToUse": "JUVEPLAYER"
+    },
+    {
+        "title": "Speciale addominali di %JUVEPLAYER%",
+        "category": "Gossip",
+        "imageToUse": "JUVEPLAYER"
     }
 ]
