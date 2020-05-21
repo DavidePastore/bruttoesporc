@@ -7,7 +7,8 @@
     "test": "test"
   },
   "scripts": {
-    "test": "mocha"
+    "test": "mocha",
+    "standard-check": "standard"
   },
   "repository": {
     "type": "git",
@@ -21,6 +22,12 @@
   "homepage": "https://github.com/DavidePastore/bruttoesporc#readme",
   "devDependencies": {
     "chai": "^4.2.0",
-    "mocha": "^7.1.2"
+    "mocha": "^7.1.2",
+    "standard": "^14.3.4"
+  },
+  "standard": {
+    "globals": [
+      "$"
+    ]
   }
 }
