@@ -238,5 +238,65 @@
         "title": "%JUVEPLAYER% confessa: in questo lockdown mi mancano gli abbracci con Orsato",
         "description": "Improvvise confessioni",
         "imageToUse": "JUVEPLAYER"
-    }
+    },
+    {
+        "title": "Un mix tra Platini, Pelè, Maradona ed Eto'o: questo è il nuovo %JUVEPLAYER%",
+        "description": "Improbabili paragoni",
+        "imageToUse": "JUVEPLAYER"
+    },
+    {
+        "title": "La potenza di Adriano, la velocità di Salah, il brio di Cassano: in una parola %JUVEPLAYER%",
+        "description": "Improbabili paragoni",
+        "imageToUse": "JUVEPLAYER"
+    },
+    {
+        "title": "Quasi fatta per %AIM%: per l'accordo distanza di soli %HUGENUMBER% milioni",
+        "description": "Acquisti in dirittura d'arrivo",
+        "imageToUse": "AIM"
+    },
+    {
+        "title": "Sarri Potter: il mago del calcio",
+        "description": "Elogi pubblici",
+        "imageToUse": ""
+    },
+    {
+        "title": "%JUVEPLAYER% attacca: illegali le finali a maggio!",
+        "description": "Confessioni inaspettate",
+        "imageToUse": "JUVEPLAYER"
+    },
+    {
+        "title": "Reggina, Pro Vercelli e %OPPONENTTEAM% su %JUVEPLAYER%",
+        "description": "Corteggiamenti",
+        "imageToUse": "JUVEPLAYER"
+    },
+    {
+        "title": "%OPPONENTTEAM%, ti è andata male!! Ecco la Juve",
+        "description": "Accoppiamenti pericolosi",
+        "imageToUse": ""
+    },
+    {
+        "title": "%AIM% alla Juve è possibile: lo paga la Nike!",
+        "description": "Acquisti in dirittura d'arrivo",
+        "imageToUse": "AIM"
+    },
+    {
+        "title": "Juve scatenata: prima %AIM% , poi %AIM%",
+        "description": "Acquisti in dirittura d'arrivo",
+        "imageToUse": "AIM"
+    },
+    {
+        "title": "%JUVEPLAYER%, dacci a Champions!!",
+        "description": "Richieste esplicite",
+        "imageToUse": "JUVEPLAYER"
+    },
+    {
+        "title": "Trema %OPPONENTTEAM%, %JUVEPLAYER% è in formissima!",
+        "description": "Sfida lanciata",
+        "imageToUse": "JUVEPLAYER"
+    },
+    {
+        "title": "Dai %AIM%, vieni alla Juve!",
+        "description": "Richieste esplicite",
+        "imageToUse": "AIM"
+    }	
 ]

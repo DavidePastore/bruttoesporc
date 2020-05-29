@@ -43,5 +43,55 @@
         "title": "Speciale addominali di %JUVEPLAYER%",
         "category": "Gossip",
         "imageToUse": "JUVEPLAYER"
-    }
+    },
+    {
+        "title": "Specchio delle mie brame, chi è il più bello tra %JUVEPLAYER% e %JUVEPLAYER%?",
+        "category": "Gossip",
+        "imageToUse": "JUVEPLAYER"
+    },
+    {
+        "title": "In esclusiva la fidanzata di %JUVEPLAYER%: un mastino a letto",
+        "category": "Gossip",
+        "imageToUse": "JUVEPLAYER"
+    },
+    {
+        "title": "%OPPONENTTEAM% campione d'Europa con l'aiutino!",
+        "category": "Calcio",
+        "imageToUse": "OPPONENTTEAM"
+    },
+    {
+        "title": "%OPPONENTTEAM% e %OPPONENTTEAM% si sfidano per %AIM%",
+        "category": "Calcio",
+        "imageToUse": "AIM"
+    },
+    {
+        "title": "%OPPONENTTEAM% acquista %AIM% al fotofinish",
+        "category": "Calcio",
+        "imageToUse": "AIM"
+    },
+    {
+        "title": "%AIM% delizia con 4 goal",
+        "category": "Calcio",
+        "imageToUse": "AIM"
+    },
+    {
+        "title": "%OPPONENTTEAM% su %AIM%",
+        "category": "Calcio",
+        "imageToUse": "AIM"
+    },
+    {
+        "title": "%OPPONENTTEAM% acquista %AIM% al fotofinish",
+        "category": "Calcio",
+        "imageToUse": "AIM"
+    },
+    {
+        "title": "%OPPONENTTEAM%, rosso in bilancio di %HUGENUMBER% milioni",
+        "category": "Calcio",
+        "imageToUse": "OPPONENTTEAM"
+    },
+    {
+        "title": "%OPPONENTTEAM% schianta %OPPONENTTEAM% con un 4 a 0",
+        "category": "Calcio",
+        "imageToUse": "OPPONENTTEAM"
+    }	
 ]
