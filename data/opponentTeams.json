@@ -70,5 +70,33 @@
     {
         "name": "Dinamo Kiev",
         "isItalian": false
+    },
+    {
+        "name": "Chelsea",
+        "isItalian": false
+    },
+    {
+        "name": "Tottenham",
+        "isItalian": false
+    },
+    {
+        "name": "Atletico Madrid",
+        "isItalian": false
+    },
+    {
+        "name": "Borussia Dortmund",
+        "isItalian": false
+    },
+    {
+        "name": "PSG",
+        "isItalian": false
+    },
+    {
+        "name": "Valencia",
+        "isItalian": false
+    },
+    {
+        "name": "Cska Mosca",
+        "isItalian": false
     }
 ]
