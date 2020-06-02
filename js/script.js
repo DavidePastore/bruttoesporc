@@ -190,7 +190,7 @@ function regenerate () {
       randomOpponentTeamsIndex += 2
       randomBadTitlesIndex++
       randomItalianOpponentTeamsIndex++
-    });
+    })
   })
 }
 
