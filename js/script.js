@@ -96,6 +96,8 @@ function regenerate () {
         '%AIM2_IMAGE%': randomAims[randomAimsIndex + 1].image,
         '%JUVEPLAYER%': randomJuvePlayer[randomJuvePlayerIndex].name,
         '%JUVEPLAYER_IMAGE%': randomJuvePlayer[randomJuvePlayerIndex].image,
+        '%JUVEPLAYER2%': randomJuvePlayer[randomJuvePlayerIndex + 1].name,
+        '%JUVEPLAYER2_IMAGE%': randomJuvePlayer[randomJuvePlayerIndex + 1].image,
         '%BIGNUMBER%': randomIntFromInterval(44, 60),
         '%HUGENUMBER%': randomIntFromInterval(300, 500),
         '%YEAR%': randomYearFromNow(),
@@ -125,7 +127,7 @@ function regenerate () {
       }
 
       randomAimsIndex += 2
-      randomJuvePlayerIndex++
+      randomJuvePlayerIndex += 2
       randomOpponentTeamsIndex += 2
       randomOtherTitlesIndex++
       randomItalianOpponentTeamsIndex++
