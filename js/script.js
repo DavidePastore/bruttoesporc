@@ -101,6 +101,8 @@ function regenerate () {
         '%YEAR%': randomYearFromNow(),
         '%OPPONENTTEAM%': randomOpponentTeams[randomOpponentTeamsIndex].name,
         '%OPPONENTTEAM_IMAGE%': randomOpponentTeams[randomOpponentTeamsIndex].image,
+        '%OPPONENTTEAM2%': randomOpponentTeams[randomOpponentTeamsIndex + 1].name,
+        '%OPPONENTTEAM2_IMAGE%': randomOpponentTeams[randomOpponentTeamsIndex + 1].image,
         '%ITALIANOPPONENTTEAM%': randomItalianOpponentTeams[randomItalianOpponentTeamsIndex].name,
         '%ITALIANOPPONENTTEAM_IMAGE%': randomItalianOpponentTeams[randomItalianOpponentTeamsIndex].image
       }
@@ -124,7 +126,7 @@ function regenerate () {
 
       randomAimsIndex += 2
       randomJuvePlayerIndex++
-      randomOpponentTeamsIndex++
+      randomOpponentTeamsIndex += 2
       randomOtherTitlesIndex++
       randomItalianOpponentTeamsIndex++
     })

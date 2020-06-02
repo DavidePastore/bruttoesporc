@@ -60,7 +60,7 @@
         "imageToUse": "OPPONENTTEAM"
     },
     {
-        "title": "%OPPONENTTEAM% e %OPPONENTTEAM% si sfidano per %AIM%",
+        "title": "%OPPONENTTEAM% e %OPPONENTTEAM2% si sfidano per %AIM%",
         "category": "Calcio",
         "imageToUse": "AIM"
     },
@@ -90,7 +90,7 @@
         "imageToUse": "OPPONENTTEAM"
     },
     {
-        "title": "%OPPONENTTEAM% schianta %OPPONENTTEAM% con un 4 a 0",
+        "title": "%OPPONENTTEAM% schianta %OPPONENTTEAM2% con un 4 a 0",
         "category": "Calcio",
         "imageToUse": "OPPONENTTEAM"
     }	
