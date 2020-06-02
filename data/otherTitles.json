@@ -106,5 +106,17 @@
         "category": "Calcio",
         "imageToUse": "OPPONENTTEAM",
         "isGood": false
-    }	
+    },
+    {
+        "title": "%OPPONENTTEAM% vince l'Europa League",
+        "category": "Calcio",
+        "imageToUse": "OPPONENTTEAM",
+        "isGood": false
+    },
+    {
+        "title": "%AIM% vince il pallone d'oro",
+        "category": "Calcio",
+        "imageToUse": "AIM",
+        "isGood": false
+    }
 ]
