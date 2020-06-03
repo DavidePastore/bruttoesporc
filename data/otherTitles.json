@@ -2,96 +2,121 @@
     {
         "title": "%OPPONENTTEAM%: guai per il bilancio",
         "category": "Finanza",
-        "imageToUse": "OPPONENTTEAM"
+        "imageToUse": "OPPONENTTEAM",
+        "isGood": true
     },
     {
         "title": "%OPPONENTTEAM%, che disastro!",
         "category": "Calcio",
-        "imageToUse": "OPPONENTTEAM"
+        "imageToUse": "OPPONENTTEAM",
+        "isGood": true
     },
     {
         "title": "Servono %BIGNUMBER% punti nel ritorno. %OPPONENTTEAM%, che stress!",
         "category": "Calcio",
-        "imageToUse": "OPPONENTTEAM"
+        "imageToUse": "OPPONENTTEAM",
+        "isGood": true
     },
     {
         "title": "La fidanzata di %JUVEPLAYER% incanta su Instagram!",
         "category": "Gossip",
-        "imageToUse": "JUVEPLAYER"
+        "imageToUse": "JUVEPLAYER",
+        "isGood": true
     },
     {
         "title": "%ITALIANOPPONENTTEAM% KO, che peccato!",
         "category": "Calcio",
-        "imageToUse": "ITALIANOPPONENTTEAM"
+        "imageToUse": "ITALIANOPPONENTTEAM",
+        "isGood": true
     },
     {
         "title": "Speciale allenamento di %JUVEPLAYER%",
         "category": "Calcio",
-        "imageToUse": "JUVEPLAYER"
+        "imageToUse": "JUVEPLAYER",
+        "isGood": true
     },
     {
         "title": "%OPPONENTTEAM%, così non va!",
         "category": "Calcio",
-        "imageToUse": "OPPONENTTEAM"
+        "imageToUse": "OPPONENTTEAM",
+        "isGood": true
     },
     {
         "title": "Sanremo magico con la fidanzata di %JUVEPLAYER%",
         "category": "Gossip",
-        "imageToUse": "JUVEPLAYER"
+        "imageToUse": "JUVEPLAYER",
+        "isGood": true
     },
     {
         "title": "Speciale addominali di %JUVEPLAYER%",
         "category": "Gossip",
-        "imageToUse": "JUVEPLAYER"
+        "imageToUse": "JUVEPLAYER",
+        "isGood": true
     },
     {
-        "title": "Specchio delle mie brame, chi è il più bello tra %JUVEPLAYER% e %JUVEPLAYER%?",
+        "title": "Specchio delle mie brame, chi è il più bello tra %JUVEPLAYER% e %JUVEPLAYER2%?",
         "category": "Gossip",
-        "imageToUse": "JUVEPLAYER"
+        "imageToUse": "JUVEPLAYER",
+        "isGood": true
     },
     {
         "title": "In esclusiva la fidanzata di %JUVEPLAYER%: un mastino a letto",
         "category": "Gossip",
-        "imageToUse": "JUVEPLAYER"
+        "imageToUse": "JUVEPLAYER",
+        "isGood": true
     },
     {
         "title": "%OPPONENTTEAM% campione d'Europa con l'aiutino!",
         "category": "Calcio",
-        "imageToUse": "OPPONENTTEAM"
+        "imageToUse": "OPPONENTTEAM",
+        "isGood": false
     },
     {
-        "title": "%OPPONENTTEAM% e %OPPONENTTEAM% si sfidano per %AIM%",
+        "title": "%OPPONENTTEAM% e %OPPONENTTEAM2% si sfidano per %AIM%",
         "category": "Calcio",
-        "imageToUse": "AIM"
+        "imageToUse": "AIM",
+        "isGood": false
     },
     {
         "title": "%OPPONENTTEAM% acquista %AIM% al fotofinish",
         "category": "Calcio",
-        "imageToUse": "AIM"
+        "imageToUse": "AIM",
+        "isGood": false
     },
     {
         "title": "%AIM% delizia con 4 goal",
         "category": "Calcio",
-        "imageToUse": "AIM"
+        "imageToUse": "AIM",
+        "isGood": false
     },
     {
         "title": "%OPPONENTTEAM% su %AIM%",
         "category": "Calcio",
-        "imageToUse": "AIM"
-    },
-    {
-        "title": "%OPPONENTTEAM% acquista %AIM% al fotofinish",
-        "category": "Calcio",
-        "imageToUse": "AIM"
+        "imageToUse": "AIM",
+        "isGood": false
     },
     {
         "title": "%OPPONENTTEAM%, rosso in bilancio di %HUGENUMBER% milioni",
         "category": "Calcio",
-        "imageToUse": "OPPONENTTEAM"
+        "imageToUse": "OPPONENTTEAM",
+        "isGood": true
     },
     {
-        "title": "%OPPONENTTEAM% schianta %OPPONENTTEAM% con un 4 a 0",
+        "title": "%OPPONENTTEAM% schianta %OPPONENTTEAM2% con un 4 a 0",
         "category": "Calcio",
-        "imageToUse": "OPPONENTTEAM"
-    }	
+        "imageToUse": "OPPONENTTEAM",
+        "isGood": false
+    },
+    {
+        "title": "%OPPONENTTEAM% vince l'Europa League",
+        "category": "Calcio",
+        "imageToUse": "OPPONENTTEAM",
+        "isGood": false
+    },
+    {
+        "title": "%AIM% vince il pallone d'oro",
+        "category": "Calcio",
+        "imageToUse": "AIM",
+        "isGood": false
+    }
 ]

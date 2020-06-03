@@ -12,6 +12,16 @@ function getRandomElements (array) {
     .sort(function () { return 0.5 - Math.random() }) // Shuffle array
 }
 
+function getGoodTitles (array) {
+  return getRandomElements(array
+    .filter(function (item) { return item.isGood }))
+}
+
+function getBadTitles (array) {
+  return getRandomElements(array
+    .filter(function (item) { return !item.isGood }))
+}
+
 function getSalablePlayers (array) {
   return getRandomElements(array
     .filter(function (item) { return item.salable }))
@@ -60,7 +70,8 @@ function regenerate () {
     })
   ).then(function () {
     const randomTitle = getRandomElements(titles)[0].title
-    const randomOtherTitles = getRandomElements(otherTitles)
+    const randomOtherTitles = getGoodTitles(otherTitles)
+    const randomBadTitles = getBadTitles(otherTitles)
     const randomJuvePlayer = getRandomElements(juvePlayers)
     const randomSalableJuvePlayer = getSalablePlayers(juvePlayers)
     const randomAims = getRandomElements(aims)
@@ -87,7 +98,7 @@ function regenerate () {
     let randomOtherTitlesIndex = 0
     let randomItalianOpponentTeamsIndex = 0
 
-    // Randomly populate all the other available titles
+    // Randomly populate all the other available good titles
     $('.article-titles .article-to-edit').each(function (index, article) {
       replacements = {
         '%AIM%': randomAims[randomAimsIndex].name,
@@ -96,11 +107,15 @@ function regenerate () {
         '%AIM2_IMAGE%': randomAims[randomAimsIndex + 1].image,
         '%JUVEPLAYER%': randomJuvePlayer[randomJuvePlayerIndex].name,
         '%JUVEPLAYER_IMAGE%': randomJuvePlayer[randomJuvePlayerIndex].image,
+        '%JUVEPLAYER2%': randomJuvePlayer[randomJuvePlayerIndex + 1].name,
+        '%JUVEPLAYER2_IMAGE%': randomJuvePlayer[randomJuvePlayerIndex + 1].image,
         '%BIGNUMBER%': randomIntFromInterval(44, 60),
         '%HUGENUMBER%': randomIntFromInterval(300, 500),
         '%YEAR%': randomYearFromNow(),
         '%OPPONENTTEAM%': randomOpponentTeams[randomOpponentTeamsIndex].name,
         '%OPPONENTTEAM_IMAGE%': randomOpponentTeams[randomOpponentTeamsIndex].image,
+        '%OPPONENTTEAM2%': randomOpponentTeams[randomOpponentTeamsIndex + 1].name,
+        '%OPPONENTTEAM2_IMAGE%': randomOpponentTeams[randomOpponentTeamsIndex + 1].image,
         '%ITALIANOPPONENTTEAM%': randomItalianOpponentTeams[randomItalianOpponentTeamsIndex].name,
         '%ITALIANOPPONENTTEAM_IMAGE%': randomItalianOpponentTeams[randomItalianOpponentTeamsIndex].image
       }
@@ -123,9 +138,57 @@ function regenerate () {
       }
 
       randomAimsIndex += 2
-      randomJuvePlayerIndex++
-      randomOpponentTeamsIndex++
+      randomJuvePlayerIndex += 2
+      randomOpponentTeamsIndex += 2
       randomOtherTitlesIndex++
+      randomItalianOpponentTeamsIndex++
+    })
+
+    let randomBadTitlesIndex = 0
+
+    // Randomly populate all the other available bad titles
+    $('.article-titles .bad-article-to-edit').each(function (index, article) {
+      replacements = {
+        '%AIM%': randomAims[randomAimsIndex].name,
+        '%AIM_IMAGE%': randomAims[randomAimsIndex].image,
+        '%AIM2%': randomAims[randomAimsIndex + 1].name,
+        '%AIM2_IMAGE%': randomAims[randomAimsIndex + 1].image,
+        '%JUVEPLAYER%': randomJuvePlayer[randomJuvePlayerIndex].name,
+        '%JUVEPLAYER_IMAGE%': randomJuvePlayer[randomJuvePlayerIndex].image,
+        '%JUVEPLAYER2%': randomJuvePlayer[randomJuvePlayerIndex + 1].name,
+        '%JUVEPLAYER2_IMAGE%': randomJuvePlayer[randomJuvePlayerIndex + 1].image,
+        '%BIGNUMBER%': randomIntFromInterval(44, 60),
+        '%HUGENUMBER%': randomIntFromInterval(300, 500),
+        '%YEAR%': randomYearFromNow(),
+        '%OPPONENTTEAM%': randomOpponentTeams[randomOpponentTeamsIndex].name,
+        '%OPPONENTTEAM_IMAGE%': randomOpponentTeams[randomOpponentTeamsIndex].image,
+        '%OPPONENTTEAM2%': randomOpponentTeams[randomOpponentTeamsIndex + 1].name,
+        '%OPPONENTTEAM2_IMAGE%': randomOpponentTeams[randomOpponentTeamsIndex + 1].image,
+        '%ITALIANOPPONENTTEAM%': randomItalianOpponentTeams[randomItalianOpponentTeamsIndex].name,
+        '%ITALIANOPPONENTTEAM_IMAGE%': randomItalianOpponentTeams[randomItalianOpponentTeamsIndex].image
+      }
+      const $article = $(article)
+      const randomOtherTitle = randomBadTitles[randomBadTitlesIndex]
+      $article.find('.article-title')
+        .html(createDefinitiveTitle(randomOtherTitle.title, replacements))
+      const category = randomOtherTitle.category
+      $article.find('.article-category')
+        .html(category)
+        .css('color', getColorFromCategory(categories, category))
+
+      const imageToUse = findImage(randomOtherTitle, replacements)
+      if (imageToUse) {
+        $article.find('.article-image')
+          .html('<img class="bd-placeholder-img article-image" width="200" height="250" src="' + imageToUse + '">')
+      } else {
+        $article.find('.article-image')
+          .html('<svg class="bd-placeholder-img" width="200" height="250" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>')
+      }
+
+      randomAimsIndex += 2
+      randomJuvePlayerIndex += 2
+      randomOpponentTeamsIndex += 2
+      randomBadTitlesIndex++
       randomItalianOpponentTeamsIndex++
     })
   })

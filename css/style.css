@@ -18,6 +18,10 @@
   #title {
     font-size: 1.3rem;
   }
+
+  .jumbotron {
+    padding: 5rem 3rem;
+  }
 }
 
 @media (min-width: 768px) {
@@ -26,7 +30,7 @@
   }
 
   #title {
-    font-size: 1.625rem;
+    font-size: 2.500rem;
   }
 }
 

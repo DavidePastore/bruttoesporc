@@ -126,15 +126,28 @@ describe('otherTitles.json file', function () {
 
   it('should contains all the required fields and all of them should be strings', function () {
     const requireFields = [
-      'title',
-      'category',
-      'imageToUse'
+      {
+        key: 'title',
+        type: 'isString'
+      },
+      {
+        key: 'category',
+        type: 'isString'
+      },
+      {
+        key: 'imageToUse',
+        type: 'isString'
+      },
+      {
+        key: 'isGood',
+        type: 'isBoolean'
+      }
     ]
     var otherTitles = JSON.parse(fileContent)
     otherTitles.forEach(function (otherTitle, index) {
       requireFields.forEach(function (field) {
-        assert.isDefined(otherTitle[field], 'The ' + field + ' field is not defined for otherTitle ' + index)
-        assert.isString(otherTitle[field], 'The ' + field + ' field is not a string for otherTitle ' + index)
+        assert.isDefined(otherTitle[field.key], 'The ' + field.key + ' field is not defined for otherTitle ' + index)
+        assert[field.type](otherTitle[field.key], 'The ' + field + ' field is not ok for ' + field.type + ' for otherTitle ' + index)
       })
     })
   })
