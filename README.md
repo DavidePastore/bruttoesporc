@@ -13,6 +13,13 @@ $ npm install
 ```
 
 
+## Launch
+
+``` bash
+$ npx http-server
+```
+
+
 ## Testing
 
 ``` bash
