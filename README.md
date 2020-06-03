@@ -3,7 +3,21 @@
 [![Build Status][ico-travis]][link-travis]
 [![JavaScript Style Guide][ico-standard]][link-standard]
 
-Front page generator for the best Italian sport newspaper
+Front page generator for the best Italian sport newspaper.
+
+
+## Setup
+
+``` bash
+$ npm install
+```
+
+
+## Testing
+
+``` bash
+$ npm test
+```
 
 
 [ico-travis]: https://travis-ci.org/DavidePastore/bruttoesporc.svg?branch=master
