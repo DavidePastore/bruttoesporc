@@ -113,10 +113,124 @@
         "imageToUse": "OPPONENTTEAM",
         "isGood": false
     },
+	{
+        "title": "%OPPONENTTEAM%: preso %AIM%",
+        "category": "Calcio",
+        "imageToUse": "OPPONENTTEAM",
+        "isGood": false
+    },
+	{
+        "title": "%OPPONENTTEAM%: preso %AIM% a parametro zero",
+        "category": "Calcio",
+        "imageToUse": "OPPONENTTEAM",
+        "isGood": false
+    },
     {
         "title": "%AIM% vince il pallone d'oro",
         "category": "Calcio",
         "imageToUse": "AIM",
         "isGood": false
+    },
+	{
+        "title": "%AIM% vince la scarpa d'oro",
+        "category": "Calcio",
+        "imageToUse": "AIM",
+        "isGood": false
+    },
+	{
+        "title": "%AIM% in corso per la scarpa d'oro",
+        "category": "Calcio",
+        "imageToUse": "AIM",
+        "isGood": false
+    },
+	{
+        "title": "%AIM% trascina la sua squadra al trionfo con una tripletta",
+        "category": "Calcio",
+        "imageToUse": "AIM",
+        "isGood": false
+    },
+    {
+        "title": "%AIM% dichiara: CR7 il migliore!",
+        "category": "Calcio",
+        "imageToUse": "AIM",
+        "isGood": true
+    },
+    {
+        "title": "%AIM% si confessa: CR7 il mio idolo!",
+        "category": "Calcio",
+        "imageToUse": "AIM",
+        "isGood": true
+    },
+    {
+        "title": "%AIM% si confessa: amo CR7!",
+        "category": "Calcio",
+        "imageToUse": "AIM",
+        "isGood": true
+    },
+    {
+        "title": "%JUVEPLAYER% si traveste da Lupin per carnevale!",
+        "category": "Gossip",
+        "imageToUse": "AIM",
+        "isGood": true
+    },
+    {
+        "title": "Mister Italia 2020 rifiuta il premio: lo merita CR7, è il più bello",
+        "category": "Gossip",
+        "imageToUse": "AIM",
+        "isGood": true
+    },
+    {
+        "title": "%JUVEPLAYER% erige una statua di CR7: se esiste il Cristo Redentore, allora anche CR7 la merita",
+        "category": "Gossip",
+        "imageToUse": "AIM",
+        "isGood": true
+    },
+    {
+        "title": "%AIM% dichiara: da piccolo, alla play station giocavo sempre con la Juve!",
+        "category": "Gossip",
+        "imageToUse": "AIM",
+        "isGood": true
+    },
+    {
+        "title": "%OPPONENTTEAM% in caduta libera: gode la Juve!",
+        "category": "Calcio",
+        "imageToUse": "OPPONENTTEAM",
+        "isGood": true
+    },
+    {
+        "title": "%OPPONENTTEAM% esonera l'allenatore",
+        "category": "Calcio",
+        "imageToUse": "OPPONENTTEAM",
+        "isGood": true
+    },
+    {
+        "title": "%OPPONENTTEAM%, è caos: ora la Champions diviene un miraggio",
+        "category": "Calcio",
+        "imageToUse": "OPPONENTTEAM",
+        "isGood": true
+    },
+    {
+        "title": "%OPPONENTTEAM% a meno 20 dal terzo posto",
+        "category": "Calcio",
+        "imageToUse": "OPPONENTTEAM",
+        "isGood": true
+    },
+    {
+        "title": "%OPPONENTTEAM%, che debiti! Costretti a vendere i top",
+        "category": "Calcio",
+        "imageToUse": "OPPONENTTEAM",
+        "isGood": true
+    },
+    {
+        "title": "%AIM% dichiara: CR7 dal vivo è mostruoso!",
+        "category": "Gossip",
+        "imageToUse": "AIM",
+        "isGood": true
+    },
+    {
+        "title": "Incontenibile CR7, si allena 5 giorni su 7, che record!!",
+        "category": "Calcio",
+        "imageToUse": "AIM",
+        "isGood": true
     }
 ]
