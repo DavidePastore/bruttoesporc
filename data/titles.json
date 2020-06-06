@@ -285,7 +285,7 @@
         "imageToUse": "AIM"
     },
     {
-        "title": "%JUVEPLAYER%, dacci a Champions!!",
+        "title": "%JUVEPLAYER%, dacci la Champions!!",
         "description": "Richieste esplicite",
         "imageToUse": "JUVEPLAYER"
     },
@@ -298,5 +298,40 @@
         "title": "Dai %AIM%, vieni alla Juve!",
         "description": "Richieste esplicite",
         "imageToUse": "AIM"
-    }	
+    },
+    {
+        "title": "Volete %SALABLEJUVEPLAYER%? Dateci %AIM%!",
+        "description": "Richieste esplicite",
+        "imageToUse": "AIM"
+    },
+    {
+        "title": "%OPPONENTTEAM% in lacrime: %AIM% va alla Juve",
+        "description": "Acquisti in dirittura d'arrivo",
+        "imageToUse": "AIM"
+    },
+    {
+        "title": "%JUVEPLAYER% è l'oro della Juve",
+        "description": "Elogi pubblici",
+        "imageToUse": "JUVEPLAYER"
+    },
+    {
+        "title": Tra i due litiganti la spunta la Juve: preso %AIM% a prezzo di saldo",
+        "description": "Acquisti in dirittura d'arrivo",
+        "imageToUse": "AIM"
+    },
+    {
+        "title": Che Juve: %OPPONENTTEAM% sconfitto",
+        "description": "Partite storiche",
+        "imageToUse": ""
+    },
+    {
+        "title": "VERGOGNA!!!! %OPPONENTTEAM% batte la Juve con l'aiutino",
+        "description": "Partite storiche",
+        "imageToUse": ""
+    },
+    {
+        "title": "Paratici sbotta: non vendiamo top players come Rizzoli",
+        "description": "Richieste senza senso",
+        "imageToUse": ""
+    }
 ]
