@@ -170,7 +170,7 @@
     {
         "title": "%JUVEPLAYER% si traveste da Lupin per carnevale!",
         "category": "Gossip",
-        "imageToUse": "AIM",
+        "imageToUse": "JUVEPLAYER",
         "isGood": true
     },
     {
@@ -182,7 +182,7 @@
     {
         "title": "%JUVEPLAYER% erige una statua di CR7: se esiste il Cristo Redentore, allora anche CR7 la merita",
         "category": "Gossip",
-        "imageToUse": "AIM",
+        "imageToUse": "JUVEPLAYER",
         "isGood": true
     },
     {
@@ -230,7 +230,7 @@
     {
         "title": "Incontenibile CR7, si allena 5 giorni su 7, che record!!",
         "category": "Calcio",
-        "imageToUse": "AIM",
+        "imageToUse": "CR7",
         "isGood": true
     }
 ]
