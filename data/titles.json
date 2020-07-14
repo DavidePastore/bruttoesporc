@@ -94,6 +94,11 @@
 		"imageToUse": "JUVEPLAYER"
 	},
 	{
+		"title": "Rinnovo %JUVEPLAYER%: giocherò fino al %YEAR%",
+		"description": "Rinnovo doveroso",
+		"imageToUse": "JUVEPLAYER"
+	},
+	{
 		"title": "%AIM%-Juve: è fatta! Lo porta %JUVEPLAYER%",
 		"description": "Prossimo acquisto sotto consiglio",
 		"imageToUse": "AIM"
@@ -279,7 +284,7 @@
 		"imageToUse": "AIM"
 	},
 	{
-		"title": "Juve scatenata: prima %AIM% , poi %AIM%",
+		"title": "Juve scatenata: prima %AIM% , poi %AIM2%",
 		"description": "Acquisti in dirittura d'arrivo",
 		"imageToUse": "AIM"
 	},
@@ -314,7 +319,7 @@
 		"imageToUse": "JUVEPLAYER"
 	},
 	{
-		"title": "Tra i due litiganti la spunta la Juve: preso % AIM % a prezzo di saldo ",
+		"title": "Tra i due litiganti la spunta la Juve: preso %AIM% a prezzo di saldo ",
 		"description": "Acquisti in dirittura d'arrivo",
 		"imageToUse": "AIM"
 	},
@@ -332,5 +337,15 @@
 		"title": "Paratici sbotta: non vendiamo top players come Rizzoli",
 		"description": "Richieste senza senso",
 		"imageToUse": ""
+	},
+	{
+		"title": "Ronaldo miglior marcatore della Juve: 26 gol (27 su rigore)",
+		"description": "Miglior marcatore",
+		"imageToUse": "CR7"
+	},
+	{
+		"title": "%OPPONENTTEAM% punta %SALABLEJUVEPLAYER%",
+		"description": "Vendita dei grandi",
+		"imageToUse": "SALABLEJUVEPLAYER"
 	}
 ]
