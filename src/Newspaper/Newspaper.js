@@ -3,7 +3,6 @@ import './Newspaper.css';
 import MainTitle from '../MainTitle/MainTitle';
 import Title from '../Title/Title';
 import Footer from '../Footer/Footer';
-import $ from 'jquery';
 
 class Newspaper extends React.Component {
 
