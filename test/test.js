@@ -5,12 +5,13 @@ var describe = mocha.describe
 var it = mocha.it
 var assert = chai.assert // Using Assert style
 
-const AIMS_FILE_PATH = 'data/aims.json'
-const CATEGORIES_FILE_PATH = 'data/categories.json'
-const JUVE_PLAYERS_FILE_PATH = 'data/juvePlayers.json'
-const OPPONENT_TEAMS_FILE_PATH = 'data/opponentTeams.json'
-const OTHER_TITLES_FILE_PATH = 'data/otherTitles.json'
-const TITLES_FILE_PATH = 'data/titles.json'
+const DATA_DIRECTORY = 'public/data';
+const AIMS_FILE_PATH = DATA_DIRECTORY + '/aims.json'
+const CATEGORIES_FILE_PATH = DATA_DIRECTORY + '/categories.json'
+const JUVE_PLAYERS_FILE_PATH = DATA_DIRECTORY + '/juvePlayers.json'
+const OPPONENT_TEAMS_FILE_PATH = DATA_DIRECTORY + '/opponentTeams.json'
+const OTHER_TITLES_FILE_PATH = DATA_DIRECTORY + '/otherTitles.json'
+const TITLES_FILE_PATH = DATA_DIRECTORY + '/titles.json'
 
 describe('aims.json file', function () {
   var fileContent = fs.readFileSync(AIMS_FILE_PATH)
