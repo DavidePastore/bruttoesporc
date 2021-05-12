@@ -1,6 +1,6 @@
 # bruttoesporc
 
-[![Build Status][ico-travis]][link-travis]
+[![Build Status][ico-github-actions]][link-github-actions]
 [![JavaScript Style Guide][ico-standard]][link-standard]
 
 Front page generator for the best Italian sport newspaper.
@@ -79,8 +79,8 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
 
 
-[ico-travis]: https://travis-ci.org/DavidePastore/bruttoesporc.svg?branch=master
+[ico-github-actions]: https://github.com/DavidePastore/bruttoesporc/workflows/Run%20tests/badge.svg?branch=master
 [ico-standard]: https://img.shields.io/badge/code_style-standard-brightgreen.svg
 
-[link-travis]: https://travis-ci.org/DavidePastore/bruttoesporc
+[link-github-actions]: https://github.com/DavidePastore/bruttoesporc/actions?query=workflow%3A%22Run+tests%22
 [link-standard]: https://standardjs.com
