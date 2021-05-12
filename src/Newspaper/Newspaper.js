@@ -5,8 +5,7 @@ import Title from '../Title/Title';
 import Footer from '../Footer/Footer';
 
 class Newspaper extends React.Component {
-
-  constructor(props) {
+  constructor (props) {
     super(props);
     this.state = {
       aims: [],
@@ -23,14 +22,14 @@ class Newspaper extends React.Component {
     this.generateTitles = this.generateTitles.bind(this);
   }
 
-  componentDidMount() {
+  componentDidMount () {
     Promise.all([
-      fetch("./data/aims.json"),
-      fetch("./data/juvePlayers.json"),
-      fetch("./data/titles.json"),
-      fetch("./data/otherTitles.json"),
-      fetch("./data/opponentTeams.json"),
-      fetch("./data/categories.json"),
+      window.fetch('./data/aims.json'),
+      window.fetch('./data/juvePlayers.json'),
+      window.fetch('./data/titles.json'),
+      window.fetch('./data/otherTitles.json'),
+      window.fetch('./data/opponentTeams.json'),
+      window.fetch('./data/categories.json')
     ]).then(result => Promise.all(result.map(v => v.json())))
       .then(([aims, juvePlayers, titles, otherTitles, opponentTeams, categories]) => {
         this.setState({
@@ -43,12 +42,12 @@ class Newspaper extends React.Component {
         });
 
         this.generateTitles();
-    }).catch((err) => {
+      }).catch((err) => {
         console.error(err);
-    });
+      });
   }
 
-  generateTitles() {
+  generateTitles () {
     // Generate the titles
     var randomTitle = this.getRandomElements(this.state.titles)[0].title;
     var randomOtherTitles = this.getGoodTitles(this.state.otherTitles);
@@ -81,8 +80,8 @@ class Newspaper extends React.Component {
     var randomItalianOpponentTeamsIndex = 0;
 
     // Randomly populate all the other available good titles
-    let titlesToUse = [];
-    let numberOfGoodTitles = 5;
+    const titlesToUse = [];
+    const numberOfGoodTitles = 5;
     for (let i = 0; i < numberOfGoodTitles; i++) {
       replacements = {
         '%AIM%': randomAims[randomAimsIndex].name,
@@ -103,7 +102,7 @@ class Newspaper extends React.Component {
         '%ITALIANOPPONENTTEAM%': randomItalianOpponentTeams[randomItalianOpponentTeamsIndex].name,
         '%ITALIANOPPONENTTEAM_IMAGE%': randomItalianOpponentTeams[randomItalianOpponentTeamsIndex].image
       };
-      let titleToAdd = {};
+      const titleToAdd = {};
       let mdClass = 6;
       let showImage = true;
       if (i >= 2) {
@@ -112,13 +111,13 @@ class Newspaper extends React.Component {
       }
       titleToAdd.mdClass = mdClass;
       titleToAdd.showImage = showImage;
-      let randomOtherTitle = randomOtherTitles[randomOtherTitlesIndex];
+      const randomOtherTitle = randomOtherTitles[randomOtherTitlesIndex];
       titleToAdd.title = this.createDefinitiveTitle(randomOtherTitle.title, replacements);
-      let category = randomOtherTitle.category;
+      const category = randomOtherTitle.category;
       titleToAdd.category = category;
       titleToAdd.categoryColor = this.getColorFromCategory(this.state.categories, category);
 
-      let imageToUse = this.findImage(randomOtherTitle, replacements);
+      const imageToUse = this.findImage(randomOtherTitle, replacements);
       titleToAdd.imageToUse = imageToUse;
 
       titlesToUse.push(titleToAdd);
@@ -132,7 +131,7 @@ class Newspaper extends React.Component {
     var randomBadTitlesIndex = 0;
 
     // Randomly populate all the other available bad titles
-    let numberOfBadTitles = 4;
+    const numberOfBadTitles = 4;
     for (let i = 0; i < numberOfBadTitles; i++) {
       replacements = {
         '%AIM%': randomAims[randomAimsIndex].name,
@@ -153,16 +152,16 @@ class Newspaper extends React.Component {
         '%ITALIANOPPONENTTEAM%': randomItalianOpponentTeams[randomItalianOpponentTeamsIndex].name,
         '%ITALIANOPPONENTTEAM_IMAGE%': randomItalianOpponentTeams[randomItalianOpponentTeamsIndex].image
       };
-      let titleToAdd = {};
+      const titleToAdd = {};
       titleToAdd.mdClass = 3;
       titleToAdd.mini = true;
-      let randomOtherTitle = randomBadTitles[randomBadTitlesIndex];
-      titleToAdd.title = this.createDefinitiveTitle(randomOtherTitle.title, replacements)
-      let category = randomOtherTitle.category;
+      const randomOtherTitle = randomBadTitles[randomBadTitlesIndex];
+      titleToAdd.title = this.createDefinitiveTitle(randomOtherTitle.title, replacements);
+      const category = randomOtherTitle.category;
       titleToAdd.category = category;
       titleToAdd.categoryColor = this.getColorFromCategory(this.state.categories, category);
 
-      let imageToUse = this.findImage(randomOtherTitle, replacements);
+      const imageToUse = this.findImage(randomOtherTitle, replacements);
       titleToAdd.imageToUse = imageToUse;
 
       titlesToUse.push(titleToAdd);
@@ -177,87 +176,89 @@ class Newspaper extends React.Component {
     });
   }
 
-  randomIntFromInterval(min, max) {
+  randomIntFromInterval (min, max) {
     // min and max included
     return Math.floor(Math.random() * (max - min + 1) + min);
   }
-  
-  randomYearFromNow() {
+
+  randomYearFromNow () {
     var currentYear = new Date().getFullYear();
     return this.randomIntFromInterval(currentYear + 5, currentYear + 10);
   }
-  
-  getRandomElements(array) {
+
+  getRandomElements (array) {
     return array.sort(function () {
       return 0.5 - Math.random();
     }); // Shuffle array
   }
-  
-  getGoodTitles(array) {
+
+  getGoodTitles (array) {
     return this.getRandomElements(array.filter(function (item) {
       return item.isGood;
     }));
   }
-  
-  getBadTitles(array) {
+
+  getBadTitles (array) {
     return this.getRandomElements(array.filter(function (item) {
       return !item.isGood;
     }));
   }
-  
-  getSalablePlayers(array) {
+
+  getSalablePlayers (array) {
     return this.getRandomElements(array.filter(function (item) {
       return item.salable;
     }));
   }
-  
-  getItalianTeams(array) {
+
+  getItalianTeams (array) {
     return this.getRandomElements(array.filter(function (item) {
       return item.isItalian;
     }));
   }
-  
-  createDefinitiveTitle(title, replacements) {
+
+  createDefinitiveTitle (title, replacements) {
     return title.replace(/%\w+%/g, function (all) {
       return replacements[all] || all;
     });
   }
-  
-  findImage(title, replacements) {
+
+  findImage (title, replacements) {
     var imageToUse = '%' + title.imageToUse + '_IMAGE%';
     return replacements[imageToUse];
   }
-  
-  getColorFromCategory(categories, category) {
+
+  getColorFromCategory (categories, category) {
     return categories.filter(function (item) {
       return item.name === category;
     })[0].color;
   }
 
-  render() {
+  render () {
     const titles = this.state.titlesToUse.map((titleToUse) =>
-      <Title key={titleToUse.title} mdClass={titleToUse.mdClass} title={titleToUse.title}
+      <Title
+        key={titleToUse.title} mdClass={titleToUse.mdClass} title={titleToUse.title}
         category={titleToUse.category} categoryColor={titleToUse.categoryColor}
         showImage={titleToUse.showImage} imageToUse={titleToUse.imageToUse}
-        mini={titleToUse.mini}></Title>
+        mini={titleToUse.mini}
+      />
     );
     return (
-      <div className="container-fluid">
-        <header className="blog-header py-3">
-          <div className="row flex-nowrap justify-content-between align-items-center">
-            <div className="col-4 pt-1">
-              <a className="text-muted" href="https://github.com/DavidePastore/bruttoesporc" rel="noopener noreferrer" target="_blank">Contribute</a>
+      <div className='container-fluid'>
+        <header className='blog-header py-3'>
+          <div className='row flex-nowrap justify-content-between align-items-center'>
+            <div className='col-4 pt-1'>
+              <a className='text-muted' href='https://github.com/DavidePastore/bruttoesporc' rel='noopener noreferrer' target='_blank'>Contribute</a>
             </div>
-            <div className="col-4 text-center">
-              <a className="blog-header-logo" id="logo" href="https://github.com/DavidePastore/bruttoesporc" rel="noopener noreferrer" target="_blank">BRUTTO&SPORC</a>
+            <div className='col-4 text-center'>
+              <a className='blog-header-logo' id='logo' href='https://github.com/DavidePastore/bruttoesporc' rel='noopener noreferrer' target='_blank'>BRUTTO&SPORC</a>
             </div>
-            <div className="col-4 d-flex justify-content-end align-items-center">
-              <a className="text-muted" href="https://github.com/DavidePastore/bruttoesporc" rel="noopener noreferrer" target="_blank">Contribute</a>
+            <div className='col-4 d-flex justify-content-end align-items-center'>
+              <a className='text-muted' href='https://github.com/DavidePastore/bruttoesporc' rel='noopener noreferrer' target='_blank'>Contribute</a>
             </div>
           </div>
         </header>
         <MainTitle title={this.state.mainTitle} onRegenerate={this.generateTitles}></MainTitle>
-        <div className="row mb-2 article-titles">
+        <div className='row mb-2 article-titles'>
           {titles}
         </div>
         <Footer></Footer>
