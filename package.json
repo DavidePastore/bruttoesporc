@@ -1,24 +1,19 @@
 {
-  "name": "bruttoesporc",
+  "name": "my-react-app",
   "version": "0.1.0",
-  "description": "Front page generator for the best Italian sport newspaper",
-  "directories": {
-    "test": "test"
-  },
+  "private": true,
   "dependencies": {
-    "@testing-library/jest-dom": "^4.2.4",
-    "@testing-library/react": "^9.5.0",
-    "@testing-library/user-event": "^7.2.1",
-    "bootstrap": "^4.5.2",
-    "jquery": "^3.5.1",
-    "react": "^16.13.1",
-    "react-dom": "^16.13.1",
-    "react-scripts": "3.4.3"
+    "@testing-library/jest-dom": "^5.11.4",
+    "@testing-library/react": "^11.1.0",
+    "@testing-library/user-event": "^12.1.10",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-scripts": "4.0.3",
+    "web-vitals": "^1.0.1"
   },
   "devDependencies": {
-    "chai": "^4.2.0",
-    "http-server": "^0.12.3",
-    "mocha": "^7.1.2",
+    "chai": "^4.3.4",
+    "mocha": "^8.4.0",
     "semistandard": "^14.2.3"
   },
   "scripts": {
@@ -28,18 +23,11 @@
     "eject": "react-scripts eject",
     "standard-check": "semistandard"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/DavidePastore/bruttoesporc.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/DavidePastore/bruttoesporc/issues"
-  },
-  "homepage": "https://github.com/DavidePastore/bruttoesporc#readme",
   "eslintConfig": {
-    "extends": "react-app"
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
   },
   "browserslist": {
     "production": [
