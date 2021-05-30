@@ -2,33 +2,51 @@
   "name": "bruttoesporc",
   "version": "0.1.0",
   "description": "Front page generator for the best Italian sport newspaper",
-  "main": "index.js",
-  "directories": {
-    "test": "test"
-  },
-  "scripts": {
-    "test": "mocha",
-    "standard-check": "standard"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/DavidePastore/bruttoesporc.git"
   },
-  "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/DavidePastore/bruttoesporc/issues"
   },
-  "homepage": "https://github.com/DavidePastore/bruttoesporc#readme",
-  "devDependencies": {
-    "chai": "^4.2.0",
-    "http-server": "^0.12.3",
-    "mocha": "^7.1.2",
-    "standard": "^14.3.4"
+  "dependencies": {
+    "@testing-library/jest-dom": "^5.11.4",
+    "@testing-library/react": "^11.1.0",
+    "@testing-library/user-event": "^12.1.10",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-scripts": "4.0.3",
+    "web-vitals": "^1.0.1"
   },
-  "standard": {
-    "globals": [
-      "$"
+  "devDependencies": {
+    "chai": "^4.3.4",
+    "mocha": "^8.4.0",
+    "semistandard": "^14.2.3"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "mocha && react-scripts test --passWithNoTests",
+    "eject": "react-scripts eject",
+    "standard-check": "semistandard"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
     ]
   }
 }

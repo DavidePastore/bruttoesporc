@@ -23,6 +23,9 @@ jobs:
 
     - name: Standard check
       run: npm run standard-check
+    
+    - name: Run build
+      run: npm run build
 
     - name: Run tests
       run: npm test

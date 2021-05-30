@@ -1,0 +1,22 @@
+#title {
+    line-height: 1.1;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+}
+
+@media (min-width: 576px) {
+    #title {
+        font-size: 1.3rem;
+    }
+
+    .jumbotron {
+        padding: 5rem 3rem;
+    }
+}
+
+@media (min-width: 768px) {
+    #title {
+      font-size: 2.500rem;
+    }
+  }
