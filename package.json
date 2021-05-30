@@ -1,7 +1,15 @@
 {
-  "name": "my-react-app",
+  "name": "bruttoesporc",
   "version": "0.1.0",
-  "private": true,
+  "description": "Front page generator for the best Italian sport newspaper",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DavidePastore/bruttoesporc.git"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DavidePastore/bruttoesporc/issues"
+  },
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
@@ -19,7 +27,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "mocha && react-scripts test",
+    "test": "mocha && react-scripts test --passWithNoTests",
     "eject": "react-scripts eject",
     "standard-check": "semistandard"
   },
