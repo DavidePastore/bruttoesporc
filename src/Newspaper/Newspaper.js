@@ -19,7 +19,7 @@ class Newspaper extends React.Component {
       titlesToUse: []
     };
 
-    this.generateTitles = this.generateTitles.bind(this);
+    this.handleGenerateTitles = this.handleGenerateTitles.bind(this);
   }
 
   componentDidMount () {
@@ -41,23 +41,23 @@ class Newspaper extends React.Component {
           categories: categories
         });
 
-        this.generateTitles();
+        this.handleGenerateTitles();
       }).catch((err) => {
         console.error(err);
       });
   }
 
-  generateTitles () {
+  handleGenerateTitles () {
     // Generate the titles
-    var randomTitle = this.getRandomElements(this.state.titles)[0].title;
-    var randomOtherTitles = this.getGoodTitles(this.state.otherTitles);
-    var randomBadTitles = this.getBadTitles(this.state.otherTitles);
-    var randomJuvePlayer = this.getRandomElements(this.state.juvePlayers);
-    var randomSalableJuvePlayer = this.getSalablePlayers(this.state.juvePlayers);
-    var randomAims = this.getRandomElements(this.state.aims);
-    var randomOpponentTeams = this.getRandomElements(this.state.opponentTeams);
-    var randomItalianOpponentTeams = this.getItalianTeams(this.state.opponentTeams);
-    var replacements = {
+    const randomTitle = this.getRandomElements(this.state.titles)[0].title;
+    const randomOtherTitles = this.getGoodTitles(this.state.otherTitles);
+    const randomBadTitles = this.getBadTitles(this.state.otherTitles);
+    const randomJuvePlayer = this.getRandomElements(this.state.juvePlayers);
+    const randomSalableJuvePlayer = this.getSalablePlayers(this.state.juvePlayers);
+    const randomAims = this.getRandomElements(this.state.aims);
+    const randomOpponentTeams = this.getRandomElements(this.state.opponentTeams);
+    const randomItalianOpponentTeams = this.getItalianTeams(this.state.opponentTeams);
+    let replacements = {
       '%AIM%': randomAims[0].name,
       '%AIM2%': randomAims[1].name,
       '%JUVEPLAYER%': randomJuvePlayer[0].name,
@@ -73,11 +73,11 @@ class Newspaper extends React.Component {
       mainTitle: this.createDefinitiveTitle(randomTitle, replacements)
     });
 
-    var randomAimsIndex = 2;
-    var randomJuvePlayerIndex = 1;
-    var randomOpponentTeamsIndex = 1;
-    var randomOtherTitlesIndex = 0;
-    var randomItalianOpponentTeamsIndex = 0;
+    let randomAimsIndex = 2;
+    let randomJuvePlayerIndex = 1;
+    let randomOpponentTeamsIndex = 1;
+    let randomOtherTitlesIndex = 0;
+    let randomItalianOpponentTeamsIndex = 0;
 
     // Randomly populate all the other available good titles
     const titlesToUse = [];
@@ -128,7 +128,7 @@ class Newspaper extends React.Component {
       randomItalianOpponentTeamsIndex++;
     }
 
-    var randomBadTitlesIndex = 0;
+    let randomBadTitlesIndex = 0;
 
     // Randomly populate all the other available bad titles
     const numberOfBadTitles = 4;
@@ -182,7 +182,7 @@ class Newspaper extends React.Component {
   }
 
   randomYearFromNow () {
-    var currentYear = new Date().getFullYear();
+    const currentYear = new Date().getFullYear();
     return this.randomIntFromInterval(currentYear + 5, currentYear + 10);
   }
 
@@ -223,7 +223,7 @@ class Newspaper extends React.Component {
   }
 
   findImage (title, replacements) {
-    var imageToUse = '%' + title.imageToUse + '_IMAGE%';
+    const imageToUse = '%' + title.imageToUse + '_IMAGE%';
     return replacements[imageToUse];
   }
 
@@ -257,11 +257,11 @@ class Newspaper extends React.Component {
             </div>
           </div>
         </header>
-        <MainTitle title={this.state.mainTitle} onRegenerate={this.generateTitles}></MainTitle>
+        <MainTitle title={this.state.mainTitle} onRegenerate={this.handleGenerateTitles} />
         <div className='row mb-2 article-titles'>
           {titles}
         </div>
-        <Footer></Footer>
+        <Footer />
       </div>
     );
   }

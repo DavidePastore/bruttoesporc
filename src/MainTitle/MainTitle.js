@@ -6,10 +6,10 @@ class MainTitle extends React.Component {
     super(props);
 
     // Necessario per accedere al corretto valore di `this` all'interno della callback
-    this.regenerate = this.regenerate.bind(this);
+    this.handleRegenerate = this.handleRegenerate.bind(this);
   }
 
-  regenerate () {
+  handleRegenerate () {
     this.props.onRegenerate();
   }
 
@@ -18,9 +18,11 @@ class MainTitle extends React.Component {
       <div className='jumbotron text-white text-center rounded bg-dark'>
         <div className='col-md-12 px-0'>
           <h1 id='title'>{this.props.title}</h1> {/* className='display-4' */}
-          <button type='button' className='btn btn-success' onClick={this.regenerate}>Rigenera</button>
+          <button type='button' className='btn btn-success' onClick={this.handleRegenerate}>Rigenera</button>
+          {/*
           <p className='lead my-3'></p>
-          <p className='lead mb-0'><a href='#' className='text-white font-weight-bold'></a></p>
+          <p className='lead mb-0'></p>
+          */}
         </div>
       </div>
     );

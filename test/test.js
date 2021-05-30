@@ -1,9 +1,9 @@
-var fs = require('fs');
-var chai = require('chai');
-var mocha = require('mocha');
-var describe = mocha.describe;
-var it = mocha.it;
-var assert = chai.assert; // Using Assert style
+const fs = require('fs');
+const chai = require('chai');
+const mocha = require('mocha');
+const describe = mocha.describe;
+const it = mocha.it;
+const assert = chai.assert; // Using Assert style
 
 const DATA_DIRECTORY = 'public/data';
 const AIMS_FILE_PATH = DATA_DIRECTORY + '/aims.json';
@@ -14,7 +14,7 @@ const OTHER_TITLES_FILE_PATH = DATA_DIRECTORY + '/otherTitles.json';
 const TITLES_FILE_PATH = DATA_DIRECTORY + '/titles.json';
 
 describe('aims.json file', function () {
-  var fileContent = fs.readFileSync(AIMS_FILE_PATH);
+  const fileContent = fs.readFileSync(AIMS_FILE_PATH);
   it('should be a valid JSON file', function () {
     assert.doesNotThrow(
       () => {
@@ -30,7 +30,7 @@ describe('aims.json file', function () {
       'team',
       'image'
     ];
-    var aims = JSON.parse(fileContent);
+    const aims = JSON.parse(fileContent);
     aims.forEach(function (aim, index) {
       requireFields.forEach(function (field) {
         assert.isDefined(aim[field], 'The ' + field + ' field is not defined for aim ' + index);
@@ -41,7 +41,7 @@ describe('aims.json file', function () {
 });
 
 describe('categories.json file', function () {
-  var fileContent = fs.readFileSync(CATEGORIES_FILE_PATH);
+  const fileContent = fs.readFileSync(CATEGORIES_FILE_PATH);
   it('should be a valid JSON file', function () {
     assert.doesNotThrow(
       () => {
@@ -55,7 +55,7 @@ describe('categories.json file', function () {
       'name',
       'color'
     ];
-    var categories = JSON.parse(fileContent);
+    const categories = JSON.parse(fileContent);
     categories.forEach(function (category, index) {
       requireFields.forEach(function (field) {
         assert.isDefined(category[field], 'The ' + field + ' field is not defined for category ' + index);
@@ -66,7 +66,7 @@ describe('categories.json file', function () {
 });
 
 describe('juvePlayers.json file', function () {
-  var fileContent = fs.readFileSync(JUVE_PLAYERS_FILE_PATH);
+  const fileContent = fs.readFileSync(JUVE_PLAYERS_FILE_PATH);
   it('should be a valid JSON file', function () {
     assert.doesNotThrow(
       () => {
@@ -82,7 +82,7 @@ describe('juvePlayers.json file', function () {
       'salable',
       'image'
     ];
-    var juvePlayers = JSON.parse(fileContent);
+    const juvePlayers = JSON.parse(fileContent);
     juvePlayers.forEach(function (juvePlayer, index) {
       requireFields.forEach(function (field) {
         assert.isDefined(juvePlayer[field], 'The ' + field + ' field is not defined for juvePlayer ' + index);
@@ -92,7 +92,7 @@ describe('juvePlayers.json file', function () {
 });
 
 describe('opponentTeams.json file', function () {
-  var fileContent = fs.readFileSync(OPPONENT_TEAMS_FILE_PATH);
+  const fileContent = fs.readFileSync(OPPONENT_TEAMS_FILE_PATH);
   it('should be a valid JSON file', function () {
     assert.doesNotThrow(
       () => {
@@ -106,7 +106,7 @@ describe('opponentTeams.json file', function () {
       'name',
       'isItalian'
     ];
-    var opponentTeams = JSON.parse(fileContent);
+    const opponentTeams = JSON.parse(fileContent);
     opponentTeams.forEach(function (opponentTeam, index) {
       requireFields.forEach(function (field) {
         assert.isDefined(opponentTeam[field], 'The ' + field + ' field is not defined for opponentTeam ' + index);
@@ -116,7 +116,7 @@ describe('opponentTeams.json file', function () {
 });
 
 describe('otherTitles.json file', function () {
-  var fileContent = fs.readFileSync(OTHER_TITLES_FILE_PATH);
+  const fileContent = fs.readFileSync(OTHER_TITLES_FILE_PATH);
   it('should be a valid JSON file', function () {
     assert.doesNotThrow(
       () => {
@@ -144,7 +144,7 @@ describe('otherTitles.json file', function () {
         type: 'isBoolean'
       }
     ];
-    var otherTitles = JSON.parse(fileContent);
+    const otherTitles = JSON.parse(fileContent);
     otherTitles.forEach(function (otherTitle, index) {
       requireFields.forEach(function (field) {
         assert.isDefined(otherTitle[field.key], 'The ' + field.key + ' field is not defined for otherTitle ' + index);
@@ -155,7 +155,7 @@ describe('otherTitles.json file', function () {
 });
 
 describe('titles.json file', function () {
-  var fileContent = fs.readFileSync(TITLES_FILE_PATH);
+  const fileContent = fs.readFileSync(TITLES_FILE_PATH);
   it('should be a valid JSON file', function () {
     assert.doesNotThrow(
       () => {
@@ -170,7 +170,7 @@ describe('titles.json file', function () {
       'description',
       'imageToUse'
     ];
-    var titles = JSON.parse(fileContent);
+    const titles = JSON.parse(fileContent);
     titles.forEach(function (title, index) {
       requireFields.forEach(function (field) {
         assert.isDefined(title[field], 'The ' + field + ' field is not defined for title ' + index);
