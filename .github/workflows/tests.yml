@@ -19,15 +19,15 @@ jobs:
         node-version: ${{ matrix.node-version }}
 
     - name: Install dependencies
-      run: npm install
+      run: yarn
 
     - name: Standard check
-      run: npm run standard-check
+      run: yarn run standard-check
     
     - name: Run build
-      run: npm run build
+      run: yarn run build
 
     - name: Run tests
-      run: npm test
+      run: yarn test
       env:
         CI: true
