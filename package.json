@@ -21,6 +21,7 @@
   },
   "devDependencies": {
     "chai": "^4.3.4",
+    "eslint-config-react-app": "^7.0.1",
     "mocha": "^8.4.0",
     "semistandard": "^14.2.3"
   },
