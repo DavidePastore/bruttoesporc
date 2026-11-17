@@ -34,14 +34,20 @@ $ yarn test
 
 ## Building
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Builds the app for production to the `build` folder using [Vite](https://vite.dev/).
+The build is minified and the filenames include the hashes.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+``` bash
+$ yarn build
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+To preview the production build locally:
 
+``` bash
+$ yarn preview
+```
+
+See the Vite guide about [deploying a static site](https://vite.dev/guide/static-deploy) for more information.
 
 
 [ico-github-actions]: https://github.com/DavidePastore/bruttoesporc/workflows/Run%20tests/badge.svg?branch=master
