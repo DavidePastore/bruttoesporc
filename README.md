@@ -8,7 +8,7 @@ Front page generator for the best Italian sport newspaper.
 
 ## Requirements
 
-[Node.js](https://nodejs.org/) 22.12.0 or newer. The project is tested on Node.js 22, 24 and 26.
+[Node.js](https://nodejs.org/) 22 (22.12.0 or later), 24 or 26. These are the versions the project is tested on.
 
 
 ## Setup
