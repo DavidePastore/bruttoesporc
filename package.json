@@ -30,6 +30,9 @@
     "vite": "^8.3.8",
     "vitest": "^5.1.0"
   },
+  "resolutions": {
+    "mocha/**/minimatch": "^11.0.1"
+  },
   "scripts": {
     "start": "vite",
     "build": "vite build",
