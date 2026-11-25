@@ -33,12 +33,12 @@ class Newspaper extends React.Component {
     ]).then(result => Promise.all(result.map(v => v.json())))
       .then(([aims, juvePlayers, titles, otherTitles, opponentTeams, categories]) => {
         this.setState({
-          aims: aims,
-          juvePlayers: juvePlayers,
-          titles: titles,
-          otherTitles: otherTitles,
-          opponentTeams: opponentTeams,
-          categories: categories
+          aims,
+          juvePlayers,
+          titles,
+          otherTitles,
+          opponentTeams,
+          categories
         });
 
         this.handleGenerateTitles();
@@ -172,7 +172,7 @@ class Newspaper extends React.Component {
       randomItalianOpponentTeamsIndex++;
     }
     this.setState({
-      titlesToUse: titlesToUse
+      titlesToUse
     });
   }
 
